@@ -1,0 +1,146 @@
+/*!
+ * QRcdr - php QR Code generator
+ * Copyright 2015 Nicola Franchini
+ * item sold on codecanyon https://codecanyon.net/item/qrcdr-responsive-qr-code-generator/9226839
+ */
+body { 
+    background-color: #f4f8f7;
+}
+
+a{
+    color: #336E7B;
+}
+a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+hr{
+    border-color: #c7c7c7;
+}
+.form-control{
+    background-color: rgba(0,0,0,0.01);
+}
+
+.btn{
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active{
+    background:none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.langmenu{
+    margin-bottom: 10px;
+}
+
+/* 
+* Tabs
+*/
+.tab-pane {
+    padding: 0px;
+    -webkit-border-radius: 0 4px 4px 4px;
+    border-radius: 0 4px 4px 4px;
+}
+.nav-tabs{
+    border-color: #e1e1e1;
+}
+.nav-tabs > li > a{
+    border: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.tab-content > .active, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:active, 
+.nav-tabs > li.active > a:focus{
+    border: none;
+    outline: none;
+}
+.nav-tabs > li > a span{
+    font-size: .8em;
+}
+label {
+    font-size: .9em;
+}
+/* 
+* Image uloader and thumb selector
+*/
+.logoselecta .btn, .btn-default{
+    background: none;
+    border-color: #9ba7b0;
+}
+.logoselecta .btn.active, 
+.logoselecta .btn:hover, 
+.logoselecta .btn:active, 
+.logoselecta .btn:focus{
+    background: rgba(0,0,0,0.1);
+}
+
+/* 
+* QR code placeholder 
+*/
+.preloader{
+    background: #f4f3ee;
+}
+
+
+
+/******************midrub css ********************/
+
+.mess-stat li.getPost {
+  font-size: 14px !important;
+}
+.mess-stat > ul > li .label {
+  position: inherit !important;
+}
+.mess-stat > ul > li {
+  background-color: #fafafa;
+  color: #555555;
+  display: inline-block !important;
+  font-weight: 400;
+  line-height: 35px;
+  list-style: outside none none;
+  margin: 0 0 10px;
+  min-height: auto !important;
+  padding: 0 15px;
+  width: 100%;
+}
+.posts .btn{
+    font-size: 11px !important;
+    letter-spacing: 0 !important;
+}
+.post-plans > div > p {
+  margin-top: 0 !important;
+}
+/*#section-vtab {
+  background: #eeeeee !important;
+}*/
+.container-fluid.posts .panel {
+  padding: 10px !important;
+  width: 100% !important;
+}
+.container-fluid.posts{
+    padding-top: 15px !important;
+}
+.container-fluid.posts .widget .panel-heading {
+  width: 100% !important;
+}
+
+.nav.nav-vertical {
+  border-radius: 5px;
+}
+.side {
+  border: 1px solid #ddd !important;
+  border-radius: 0 !important;
+}
+
+/******************midrub css ********************/

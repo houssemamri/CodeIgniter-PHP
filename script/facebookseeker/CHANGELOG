@@ -1,0 +1,9 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## [1.1] - 2016-11-15
+### Changed
+- Login now is possible by four different users; admin with password admin, user1 with password user1, user2 with password user3, user3 with password user3.
+
+## [1.0] - 2016-11-06
+### First release

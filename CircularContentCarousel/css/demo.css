@@ -1,0 +1,38 @@
+@import url('reset.css');
+
+/* General Demo Style */
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+
+h1 span, h5{
+	font-size:20px;
+	/*display:block;*/
+	color:#60817a;
+}
+/* Header Style */
+.header{
+
+	text-transform:uppercase;
+	z-index:4;
+}
+.header a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-align:right;
+}
+.header a:hover{
+	color:#fff;
+}
+.header a span{
+	font-weight:bold;
+}
+.header span.right_ab{
+	position:absolute;
+	right:4px;
+}

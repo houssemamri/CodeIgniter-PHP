@@ -1,0 +1,322 @@
+/*********************
+IMPORT FONTS
+*********************/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+/*********************
+STYLES FOR LOGIN, SIGNUP, RESET AND CHANGE PASSWORD PAGE
+*********************/
+body {
+    padding: 0;
+    color: #fdfdfd;
+    height: 100%;
+    margin:0;
+    background-color: #607d8b;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+video, .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+.browser-safari > video,.browser-safari > .container {
+    top: 0;
+    left: 0;
+    transform: none; 
+}
+.container {
+    width:100%;
+    background-color: rgba(255,255,255,0.3);
+}
+.container>.col-lg-3 {
+    margin: auto;
+    float: none;
+}
+.input {
+    height: 45px;
+    border-radius: 3px;
+    line-height: 25px;
+    border: none !important;
+}
+.input:focus,.input:active {
+    -webkit-appearance: none;
+    outline: 0px !important;	
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #61E0C6;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 100px white inset;
+}
+.logi {
+    margin-top: 30px;
+    min-height: 300px;
+    border-radius: 3px;
+    padding-top: 50px;
+}
+.logo {
+    margin-bottom: 10px;
+}
+.btn {
+    -webkit-appearance: none;
+    outline: 0px !important;
+    font-size: 15px;
+    background: none;
+}
+.welcome {
+    margin-bottom: 30px;
+}
+.welcome h3 {
+    font-size: 19px;
+}
+.btn-facebook {
+    width: 100%;
+    background-color: #0475ea;
+    border-color: #0475ea;
+    color: #fff;
+    font-weight: 600;
+    margin: 0px 0px 5px;
+    height: 40px;
+    line-height: 24px;
+}
+.btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus {
+    background-color: #325296;
+    border-color: #4e69a2;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.btn-twitter {
+    width: 100%;
+    background-color: #2dafff;
+    border-color: #2dafff;
+    color: #fff;
+    font-weight: 600;
+    margin: 15px 0px;
+    height: 40px;
+    line-height: 24px;
+}
+.btn-twitter:hover,.btn-twitter:active,.btn-twitter:focus {
+    background-color: #1991F1;
+    border-color: #1991F1;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.btn-linkedin {
+    width: 100%;
+    background-color: #287bbc;
+    border-color: #287bbc;
+    color: #fff;
+    font-weight: 600;
+    margin: 15px 0px;
+    height: 40px;
+    line-height: 24px;
+}
+.btn-linkedin:hover,.btn-linkedin:active,.btn-linkedin:focus {
+    background-color: #1b5480;
+    border-color: #1b5480;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.btn-all {
+    width: 100%;
+    background-color: #1BBC9B;
+    border-color: #1BBC9B;
+    color: #fff;
+    font-weight: 600;
+    margin: 0px 0px 15px;
+    height: 45px;
+}
+.btn-sign:hover,.btn-sign:active,.btn-sign:focus {
+    background-color: #27A98E;
+    border-color: #27A98E;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+.or {
+    text-align: center;
+    margin: 10px 0px 25px;
+    height: 5px;
+}
+.or:before {
+    background: rgba(255,255,255,0.5);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 38%;
+    left: 15px;
+    position: absolute;
+}
+.or:after {
+    background: rgba(255,255,255,0.5);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 38%;
+    right: 15px;
+    position: absolute;
+}
+.or>span {
+    position: absolute;
+    left: 50%;
+    margin-top: -14px;
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -15px;
+    color: #FFF;
+    font-size: 16px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+.signup {
+    text-align: center;
+    margin: 0px 0px 35px;	
+}
+.signup > a {
+    color: #fff;	
+}
+.btn-reset {
+    position: absolute;
+    margin-top: -37px;
+    right: 23px;
+    font-size: 18px;
+    color: #BDEFE4 !important;	
+}
+.btn-reset:hover {
+    color: #1BBC9B !important;
+}
+.btn-reset:active,.btn-reset:focus {
+    box-shadow: none;
+    color: #1BBC9B !important;	
+}
+.msuccess {
+    border-left: 4px solid #5C9ACF;
+    background: #f2f6f9;
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    color: #458AC3;
+    padding-left: 10px;
+    margin: 0px 0px 10px;
+    display: none;
+}
+.merror {
+    border-left: 4px solid #e7505a;
+    background: #f2f6f9;
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    color: #e73d4a;
+    padding-left: 10px;
+    margin: 0px 0px 10px;
+    display: none;
+}
+.block {
+    display: inherit;
+}
+.remember {
+    padding: 2px 10px 0px;
+    background-color: #f9f9f9;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 15px;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.remember span:last-child {
+    margin-top: -3px;
+    position: absolute;
+    margin-left: 5px;	
+}
+.row.rem {
+    display: none;
+}
+.links {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.links>ul {
+    margin: 0px;
+    padding: 0px;	
+}
+.links>ul>li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style: none;
+}
+.links>ul>li>a {
+    color: #ccc;
+    color: rgba(255,255,255,0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.links>ul>li>a:hover {
+    color: #dcdcdc;	
+}
+.for-mobile {
+    display: none;
+}
+
+/*********************
+RESPONSIVE STYLES
+*********************/
+@media(max-width:991px) {
+    
+    video, .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: none;
+    }
+    
+}
+@media(max-width:767px) {
+    
+    html {
+        height: 100%;
+        position: fixed;
+    }
+    
+    .no-mobile {
+        display: none;
+    }
+    
+    .for-mobile {
+        display: block;
+    }
+    
+    .for-mobile .btn-twitter {
+        margin: 0;
+    }
+    
+}
+@media only all and (max-height: 600px) {
+    
+    .links {
+        position: initial;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+}

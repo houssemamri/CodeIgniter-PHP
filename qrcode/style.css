@@ -1,0 +1,235 @@
+/*!
+/*!
+ * QRcdr - php QR Code generator
+ * Copyright 2015 Nicola Franchini
+ * item sold on codecanyon https://codecanyon.net/item/qrcdr-responsive-qr-code-generator/9226839
+ */
+body { 
+    background-color: #f4f8f7;
+}
+
+a{
+    color: #336E7B;
+}
+a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+hr{
+    border-color: #c7c7c7;
+}
+.form-control{
+    background-color: rgba(0,0,0,0.01);
+}
+
+.btn{
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#social_share > button, #social_share > a{
+    margin-top: 0.5rem;
+}
+
+/* Shared */
+.loginBtn {
+    box-sizing: border-box;
+
+    position: relative;
+
+    width: 100%;
+
+    padding: 8px 40px;
+
+    text-align: center;
+
+    border: none;
+
+    text-align: left;
+
+    line-height: 23px;
+
+    white-space: nowrap;
+
+    border-radius: 0.2em;
+
+    font-size: 16px;
+
+    color:
+            #FFF;
+
+    display: inline-block;
+
+    height: 38px;
+
+    padding: 7px 14px;
+
+    text-align: center;
+
+    font-weight: 600;
+}
+.loginBtn:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 100%;
+}
+.loginBtn:focus {
+    outline: none;
+}
+.loginBtn:active {
+    box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+    background-color: #4C69BA;
+    background-image: linear-gradient(#4C69BA, #3B55A0);
+    /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+    border-right: #364e92 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 7px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+/* Google */
+.loginBtn--google {
+    /*font-family: "Roboto", Roboto, arial, sans-serif;*/
+    background: #DD4B39;
+}
+.loginBtn--google:before {
+    border-right: #BB3F30 1px solid;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_google.png') 6px 6px no-repeat;
+}
+.loginBtn--google:hover,
+.loginBtn--google:focus {
+    background: #E74B37;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active{
+    background:none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.langmenu{
+    margin-bottom: 10px;
+}
+
+/* 
+* Tabs
+*/
+.tab-pane {
+    padding: 0px;
+    -webkit-border-radius: 0 4px 4px 4px;
+    border-radius: 0 4px 4px 4px;
+}
+.nav-tabs{
+    border-color: #e1e1e1;
+}
+.nav-tabs > li > a{
+    border: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.tab-content > .active, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:active, 
+.nav-tabs > li.active > a:focus{
+    border: none;
+    outline: none;
+}
+.nav-tabs > li > a span{
+    font-size: .8em;
+}
+label {
+    font-size: .9em;
+}
+/* 
+* Image uloader and thumb selector
+*/
+.logoselecta .btn, .btn-default{
+    background: none;
+    border-color: #9ba7b0;
+}
+.logoselecta .btn.active, 
+.logoselecta .btn:hover, 
+.logoselecta .btn:active, 
+.logoselecta .btn:focus{
+    background: rgba(0,0,0,0.1);
+}
+
+/* 
+* QR code placeholder 
+*/
+.preloader{
+    background: #f4f3ee;
+}
+
+
+
+/******************midrub css ********************/
+
+.mess-stat li.getPost {
+  font-size: 14px !important;
+}
+.mess-stat > ul > li .label {
+  position: inherit !important;
+}
+.mess-stat > ul > li {
+  background-color: #fafafa;
+  color: #555555;
+  display: inline-block !important;
+  font-weight: 400;
+  line-height: 35px;
+  list-style: outside none none;
+  margin: 0 0 10px;
+  min-height: auto !important;
+  padding: 0 15px;
+  width: 100%;
+}
+.posts .btn{
+    font-size: 11px !important;
+    letter-spacing: 0 !important;
+}
+.post-plans > div > p {
+  margin-top: 0 !important;
+}
+/*#section-vtab {
+  background: #eeeeee !important;
+}*/
+.container-fluid.posts .panel {
+  padding: 10px !important;
+  width: 100% !important;
+}
+.container-fluid.posts{
+    padding-top: 15px !important;
+}
+.container-fluid.posts .widget .panel-heading {
+  width: 100% !important;
+}
+
+.nav.nav-vertical {
+  border-radius: 5px;
+}
+.side {
+  border: 1px solid #ddd !important;
+  border-radius: 0 !important;
+}
+
+/******************midrub css ********************/

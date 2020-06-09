@@ -1,0 +1,300 @@
+.site-footer
+{
+  height:5px !important;
+}
+
+.thesaas-sections-split .section {
+  margin: 30px 50px 100px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ebebeb;
+}
+
+.thesaas-sections-split .section-info {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+
+  .thesaas-sections-split .section {
+    margin: 30px 0 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+}
+.logo-default,.logo-inverse
+{
+  width:60px !important;
+  height:100px !important;
+}
+.nav-user
+{
+  height:50px !important;
+  line-height: 35px;
+}
+#article
+{
+  font-size:16px; padding:3px; border-radius:9px; border-width:6px; border-style:double; border-color:#3cb0fd; box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75); text-shadow:0px 0px 0px rgba(42,42,42,.75);
+  padding-bottom:20px;
+}
+#article:focus { outline:none; }
+#generateBody
+{
+  margin-left:40px;
+}
+.mainFrame
+{
+  display: table;
+  margin: 0 auto;
+}
+
+.wrap { width: 1100px; height: 900px; padding: 0; overflow: hidden; }
+.frame { background:#fff; width: 1400px; height: 1200px; border: 1px solid black; }
+.frame {
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+.wrap1 { width: 900px; height: 800px; padding: 0; overflow: hidden; }
+.frame1 { background:#fff; width: 1200px; height: 800px; border: 1px solid black; }
+.frame1 {
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+textarea
+{
+  resize:none;
+}
+
+#profileName
+{
+  font-size:30px;
+}
+#company
+{
+  font-size:15px;
+  color: #f01946;
+}
+#position,#email,#contact
+{
+  font-size:15px;
+  color:#000;
+}
+.urlSites
+{
+  margin-top:20px;
+}
+.urlNames
+{
+  font-size:15px;
+  color:#000;
+}
+.urlBox
+{
+  width:100%;
+  border: 3px solid #000;
+  line-height: 20px;
+  height:30px;
+}
+.selectEmail
+{
+  margin-left:10px;
+  width:600px;
+  border: 3px solid #000;
+  float: right;
+  clear: both;
+}
+.multipleDrop
+{
+  margin-left:220px;
+}
+.multipleSelect
+{
+  width:600px;
+  border: 3px solid #000;
+}
+.textBox
+{
+  margin-left:10px;
+  width:600px;
+  border: 3px solid #000;
+  height:200px;
+  float: right;
+  clear: both;
+}
+.passwordBox
+{
+  margin-left:10px;
+  width:400px;
+  border: 3px solid #000;
+  line-height: 20px;
+  height:30px;
+}
+.supportDetails
+{
+  font-weight:bold;
+  font-size:20px;
+}
+.supportPost
+{
+  font-size:20px;
+}
+.articleHeader
+{
+  font-size:18px;
+  text-align:center;
+  border-radius:9px;
+  background-color:#3cb0fd;
+  color:#fff;
+  padding:20px 0;
+}
+.language
+{
+  height:10px;
+}
+/*sticky button */
+
+
+#sideButton1 {
+	height: 0px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 10%;
+	z-index: 1000;
+  cursor : pointer;
+}
+
+#sideButton2 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 20%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton3 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 30%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton4 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 40%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton5 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton6 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 60%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton7 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 70%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton8 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 80%;
+	z-index: 1000;
+  cursor : pointer;
+}
+#sideButton9 {
+	height: 50px;
+	width: 60px;
+	position: fixed;
+	right: 0;
+	top: 90%;
+	z-index: 1000;
+  cursor : pointer;
+}
+.header
+{
+  height:600px;
+  position:relative;
+}
+#overlay
+{
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  opacity:0.6;
+}
+#subHeader
+{
+  font-weight: 400;
+}
+#imageBox {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textBox {
+  z-index: 100;
+  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
+  left: 50px;
+  top: 35px;
+  width:1000px;
+  display:block;
+ white-space: pre-wrap;      /* CSS3 */
+ white-space: -moz-pre-wrap; /* Firefox */
+ white-space: -pre-wrap;     /* Opera <7 */
+ white-space: -o-pre-wrap;   /* Opera 7 */
+ word-wrap: break-word;      /* IE */
+}
+.Manage>a
+{
+  cursor:pointer;
+}
+#password-mismatch
+{
+  display:none;
+  color:#fb3636;
+}

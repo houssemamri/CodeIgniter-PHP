@@ -1,0 +1,821 @@
+/*********************
+CAMPAIGN STYLES
+*********************/
+input[type="number"], input[type="number"]:focus, input[type="number"]:active, #popup_button_edit input[type="text"], #popup_button_edit .modal-dialog input[type="text"]:focus, #popup_button_edit .modal-dialog input[type="text"]:active {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 3px;
+}
+#popup_table input {
+    margin-top: 3px;
+}
+#popup_table .enablus label::before, #popup_line .enablus label::before, #popup_space .enablus label::before, #popup_button_edit .enablus label::before {
+    margin-left: 10px;
+}
+.emails #popup_table .enablus > input:checked + label::after, .emails #popup_line .enablus > input:checked + label::after, .emails #popup_space .enablus > input:checked + label::after, .emails #popup_button_edit .enablus > input:checked + label::after {
+    left: 46px;
+}
+.emails .panel-heading>ul>a {
+    margin-top: -5px;
+    font-size: 16px;
+}
+.emails .panel-heading>ul>a:focus{
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+#newList .btn-success, .list-details .btn-primary {
+    background-color: #D8A9A3;
+    border-color: #D8A9A3;
+}
+#newList .btn-success:hover, .list-details .btn-primary:hover {
+    background-color: #c69690;
+    border-color: #c69690;
+}
+#newCampaign .msuccess,#newList .msuccess,.template-email .msuccess,.template-upload .msuccess,#schedule .msuccess{
+    border-left: 4px solid #5C9ACF;
+    background: #f2f6f9;
+    width:100%;
+    min-height:40px;
+    line-height:40px;
+    color: #458AC3;
+    padding-left:10px;
+    margin:10px 0px;
+    display:none;    
+}
+#newCampaign .merror,#newList .merror,.template-email .merror,.template-upload .merror,#schedule .merror{
+    border-left: 4px solid #e7505a;
+    background: #f2f6f9;
+    width:100%;
+    min-height:40px;
+    line-height:40px;
+    color: #e73d4a;
+    padding-left:10px;
+    margin:10px 0px;
+    display:none;   
+}
+.emails>.template-email{
+    padding:30px 15px;    
+}
+.emails>.col-lg-4>div,.emails>.col-lg-8>div>div>form>div,.emails>.template-email>.col-lg-12>div{
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color:#FFF;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    height:auto;
+    -webkit-animation: write 1.5s;
+    animation: write 1.5s;
+}
+.emails>.col-lg-4>div>ul>li>span {
+    float:right;
+    font-size:12px;
+    color:#999;
+}
+.msg-body {
+    min-height:500px;
+    padding-bottom: 15px;
+}
+.input-form {
+    border-radius:0px;
+    border:1px solid #ddd;
+    box-shadow:none;
+    margin-bottom:15px;
+    height:35px;
+    line-height:35px;
+}
+.emails .format {
+    min-height:35px;
+    line-height:35px;
+    background: #f8f9fa;
+}
+.emails .format>ul {
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.emails .format>ul>li {
+    height:35px;
+    line-height:35px;
+    color: #607D8B;
+    list-style:none;
+    display:inline-block;
+    margin-left:0px;
+    width:6%;
+    text-align:center;
+    cursor:pointer;	
+}
+.emails .buttons>.btn-edit, .tickets .btn-edit {
+    background-color:#54ABDB;
+    border-color:#54ABDB;
+    color:#FFF;
+}
+.emails .buttons>.btn-edit:hover, .emails .buttons>.btn-edit:focus, .tickets .btn-edit:hover, .tickets .btn-edit:focus {
+    background-color:#2196F3;
+    border-color:#54ABDB;
+    outline: none;
+}
+.emails .buttons>.btn-default {
+    border:none;
+}
+.emails .widget-body {
+    min-height: 508px;
+}
+.emails .widget-header {
+    margin-top:10px;
+}
+.emails ul,.emails .nav-tabs>li.active>a {
+    border-color:#F5F5F5;
+}
+.emails .nav-tabs>li>a {
+    color: #becbd2 !important;
+}
+.emails .nav-tabs>li.active>a {
+    border-bottom-color:transparent;
+    color: #555 !important;
+}
+.emails .nav-tabs>li>a:hover {
+    background:none !important;
+    border-bottom-color:transparent;
+}
+.emails .list-group-item,.dash-campaigns .list-group-item {
+    border:none;
+    padding:10px 5px;
+    background:none;
+    border-bottom:1px solid #F5F5F5;
+    color: #5f6a7d;
+    margin-top: 1px;
+    overflow: hidden;
+}
+.dash-campaigns .list-group-item{
+    padding: 12.15px 5px;
+}
+.emails .list-group-item:hover .fa,.emails .list-group-item.active .fa{
+    color:#57B3E0;
+}
+.emails .list-group-item:hover,.emails .list-group-item:active{
+    color:#666;
+    background-color: #ffffff;
+    border-color:#F5F5F5;
+}
+.stat-list {
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    height: 40px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    width: 100%;
+}
+.stat-list > .stat-split {
+    background: #337ab7;
+    min-width: 43px;
+    float: left;
+    color: #fff!important;
+    height: 100%;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 15px;
+}
+.stat-list > .stat-split,.emails #history .badge-info {
+    background: #fafafa !important;
+    color: #555!important;
+}
+.stat-list > .stat-split.update-success,.emails #history .badge-opened {
+    background: #7ac3ff !important;
+    color: #fff !important;
+}
+.stat-list > .stat-split.update-danger,.emails #history .badge-danger {
+    background: #F05A75 !important;
+    color: #fff !important;
+}
+.stat-list > .stat-split.update-info,.emails #history .badge-non {
+    background: #F3A089 !important;
+    color: #fff !important;
+}
+.stat-list > .stat-text {
+    line-height: 19px;
+    padding-top: 11px;
+    padding-left: 45px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 767px) {
+    .stat-list > .stat-text {
+        line-height: 19px;
+        padding-top: 0;
+        padding-left: 0;
+        overflow: hidden;
+    }
+}
+.emails #schedule .form-group,.emails #schedule .form-group input,.emails #schedule .form-group select,.emails #schedule .form-group button {
+    width: 100% !important;
+}
+.emails #schedule .form-group {
+    margin-bottom:15px;
+}
+.emails .non-mod-select {
+    display: none;
+}
+.emails #schedule ul {
+    margin: 0 !important;
+    padding: 0 15px !important;
+}
+.emails .confirm {
+    line-height: 50px;
+}
+.emails .table-responsive>.table>tbody>tr:first-child>td {
+    border-top: none;
+}
+.emails .btn-danger {
+    margin-top: 12px;
+}
+.emails .histories {
+    margin: 0 0 20px;
+    padding: 0;
+}
+.emails .histories>li>h4 {
+    margin-bottom: 5px;
+}
+.emails .histories>li>p>a {
+    margin-right: 5px;
+}
+.campaign-menu {
+    margin: 0;
+    padding: 0;
+}
+.campaign-menu>li>a {
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #607d8b;
+    display: block;
+}
+.campaign-menu>li>a>.fa-arrow-circle-right{
+    margin: 0 10px 0 15px;
+    color: #607d8b;
+}
+.campaign-menu>li>a:hover,.campaign-menu>li>a:hover>.fa-arrow-circle-right,.campaign-menu>li.active>a,.campaign-menu>li.active>a>.fa-arrow-circle-right{
+    background-color: #f8f8f8;
+}
+.template-builder {
+    min-height: 500px;
+    border: 10px solid #ffffff;
+}
+.template-tools {
+    margin-bottom: 15px !important;
+    overflow: inherit !important;
+}
+.emails .panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    margin-bottom: 0 !important;
+    min-height: 200px;
+}
+.emails .panel-heading {
+    margin-top: -1px !important;
+    padding: 10px 15px 0 !important;
+    border-radius: 5px 5px 0 0;
+}
+.emails .panel-heading .fa-window-restore, .emails .nav-tabs>li.active>a.bolis {
+    color: #D8A9A3 !important;
+}
+.emails .panel-heading .fa-puzzle-piece {
+    color: #7ac3ff;
+    font-size: 18px;
+}
+.emails .panel-heading .fa-files-o {
+    color: #60d0b9;
+}
+.emails .panel-heading .fa-history {
+    color: #607d8b;
+}
+.emails .panel-heading .fa-smile-o {
+    color: #ffc107;
+    font-size: 18px;
+}
+.emails .panel-heading .fa-cog {
+    font-size: 18px;
+    color: #93a0a8;
+}
+.emails .panel-heading .fa-bar-chart, .rss-page .fa-bar-chart {
+    color: #ff9800;
+}
+.emails .panel-heading .fa-envelope-o, .emails .panel-heading a>.fa-bullhorn {
+    color: #7ac3ff;
+}
+.emails .panel-body ul {
+    margin: 0;
+    padding: 0;
+}
+.emails .panel-body #general>ul>li {
+    list-style: none;
+    color: #607d8b;
+    height: 40px;
+    line-height: 40px;
+    width: 31%;
+    border: 1px solid #cac5c5;
+    float: left;
+    margin: 10px 1.1%;
+    padding: 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+    background-color: #ffffff;
+    cursor: move;
+}
+@media screen and (max-width: 600px) {
+    .emails .panel-body #general>ul>li {
+        width: 97.8%;
+    }
+}
+.emails>.col-lg-6>.panel {
+    margin-bottom: 30px !important;
+}
+.emails .list-group-item {
+    border-bottom: 0;
+    margin-bottom: 20px;
+}
+.template-tools .panel-body #advanced .tab-content ul>li, .stat-head {
+    list-style: none;
+    color: #607d8b;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ebeae8;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+.emails .panel-body .tab-pane ul>li {
+    list-style: none;
+    color: #607d8b;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #ebeae8;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.container-fluid.emails .panel-body .tab-pane ul.sort-stats-by-template>li {
+    list-style: none;
+    color: #607d8b;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 0;
+    line-height: 30px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.container-fluid.emails .panel-body .tab-pane ul.sort-stats-by-template > li > a {
+    height: 39px;
+}
+.emails .panel-body .tab-pane ul.histories>li {
+    border: 0;
+    height: 70px;
+    padding: 0;
+}
+.emails .panel-body#campaigns .tab-pane ul>li, .emails .panel-body#lists .tab-pane ul>li, .emails .panel-body #templates .tab-pane ul>li {
+    padding: 4px 10px;
+}
+.template-tools .panel-body #advanced .tab-content ul>li>h4, .emails .panel-body .tab-pane ul>li>h4 {
+    font-size: 16px !important;
+}
+.emails .panel-body .tab-pane ul>li>h4>.btn-group {
+    margin-top: -6.5px;
+}
+.template-tools .panel-body ul>li .fa {
+    margin-right: 5px;
+}
+.template-tools .panel-body #advanced>ul>li.active>a, .template-tools .panel-body #advanced>ul>li>a:hover {
+    color: #333333;
+    background-color: #f8f9fa;
+}
+.template-tools .panel-body #advanced .enablus>label::before {
+    margin-left: 10px;
+}
+.template-tools .panel-body #advanced button {
+    background: transparent !important;
+    border: none !important;
+    font-size: 20px;
+    margin-top: -3px;
+}
+.template-tools .panel-body #advanced input[type="number"], .template-tools .panel-body #advanced .input-group {
+    height: 25px;
+    margin-top: -3px;
+}
+.template-tools .panel-body #advanced input[type="color"] {
+    margin-top: -2px;
+}
+.template-tools .panel-body #advanced .for-css-template {
+    height: 200px !important;
+    padding: 10px !important;
+}
+.template-tools .panel-body #advanced .for-css-template textarea {
+    height: 180px;
+    width: 100%;
+    padding: 8px;
+}
+.email-template-header,.email-template-body,.email-template-footer {
+    border: 1px dashed #96a7b8;
+}
+.template-builder table {
+    width: 100%;
+}
+.template-builder table {
+    width: 100%;
+}
+.template-builder table td {
+    border: 1px dashed #96a7b8;
+    height: 30px;
+}
+.email-template-header.active,.email-template-body.active,.email-template-footer.active,.tem-item td.active {
+    border: 2px dashed #f05a75;
+}
+.emails .media-gallery {
+    float: inherit;
+}
+.emails .media-gallery li {
+    width: 100%;
+}
+.container-fluid.emails .media-gallery .btn-default {
+    margin-top: 3px !important;
+}
+.temp-text-edit>.modal-dialog {
+    width: 80%;
+}
+.emails #advanced .fa-picture-o {
+    color: #7ac3ff;
+}
+.emails .to-be-deleted {
+    display: none;
+}
+.emails .to-be-deleted:hover {
+    height: 0;
+}
+.emails .to-be-deleted:last-child {
+    display: block;
+}
+.edit-header-textarea, .edit-header-textarea:focus, .edit-paragraph-textarea, .edit-paragraph-textarea:focus, #popup_lists_edit textarea, #popup_lists_edit textarea:focus {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: 0;
+    outline: none;
+    font-size: 22px;
+    line-height: 30px;
+}
+.edit-paragraph-textarea, .edit-paragraph-textarea:focus {
+    font-size: 16px;
+    line-height: 18px; 
+}
+#popup_paragraph_edit .modal-footer td>button, #popup_lists_edit td>button, #popup_lists_edit td>.type-color, #popup_paragraph_edit .modal-footer td>.type-color, #popup_header_edit .modal-footer td>button, #popup_header_edit .modal-footer td>.type-color {
+    background-color: transparent;
+    color: #607d8b;
+    height: 26px;
+    border-radius: 3px;
+    border-bottom: 1px solid #ebeae8;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    margin: 0 5px;
+    width: 28px;
+}
+#popup_paragraph_edit .modal-footer td>button:hover, #popup_lists_edit td>button:hover, #popup_lists_edit td>.type-color:hover, #popup_paragraph_edit .modal-footer td>.type-color:hover, #popup_header_edit .modal-footer td>button:hover, #popup_header_edit .modal-footer td>.type-color:hover {
+    border-color: #7ac3ff !important;
+}
+.campaign-tabs>div {
+    display: none;
+}
+.campaign-tabs>div.active {
+    display: block;
+}
+#popup_lists_edit .panel {
+    border: 1px solid #ebeae8;
+    margin-bottom: 15px;
+}
+#popup_lists_edit .panel-heading {
+    margin-top: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #ebeae8;
+    line-height: inherit;
+    padding: 6px 6px 0;
+}
+#popup_lists_edit textarea, #popup_lists_edit textarea:focus {
+    height: 40px;
+}
+.container-fluid.emails .elists>ul>li {
+    line-height: 30px;
+}
+.container-fluid.emails .elists>ul>li>.fa-address-book-o {
+    color: #2196F3;
+    margin-right: 5px;
+}
+.container-fluid.emails .elists>ul>li.socials {
+    display: none;
+}
+.emails .setrow {
+    min-height: 70px;
+    line-height: 70px;
+}
+.emails .setrow input[type="text"] {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    margin-top: 17px;
+    border: 1px solid #ccc;
+    padding: 0 15px;
+}
+.emails #statistics>.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.stat-head .dropdown {
+    margin-top: 3.5px;
+}
+.stat-head .dropdown .dropdown-toggle, .stat-head .dropdown .dropdown-toggle:focus {
+    background-color: #60d0b9;
+    color: #ffffff;
+    border: 0;
+}
+.stat-head .dropdown .dropdown-menu {
+    margin-top: 5px !important;
+    border: 1px solid #60d0b9 !important;
+}
+.stat-head .dropdown .dropdown-menu>li>a {
+    padding: 8px 20px;
+}
+.stat-head .btn-group {
+    margin-top: 4px;
+}
+#rations {
+    width:100%;
+    height:300px;
+    padding: 10px 1%;
+    position: relative;
+    border-bottom: 1px solid #ebeae8;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 1px 5px rgba(0,0,0,.01);
+    border-radius: 5px;
+}
+.emails .morris-hover.morris-default-style {
+    margin-top: 0 !important;
+    position: absolute !important;
+}
+.emails .media-gallery {
+    min-height: 30px;
+}
+.emails .panel-body .tab-pane ul.pagination>li {
+    border: 0;
+}
+
+/*********************
+WIDGETS STYLES
+*********************/
+.container-fluid.emails .widget .panel-heading {
+    padding-top: 10px;
+    color: #f05a75;
+    font-size: 18px;
+    height: 60px !important;
+    line-height: 43px;
+    font-weight: 600;
+}
+.container-fluid.emails .widget .panel-heading .btn-group {
+    margin-top: 5px;
+}
+.container-fluid.emails .widget .panel-heading .btn-group .btn-default {
+    border: 1px solid #CDCDCD;
+    background-color: #ffffff;
+}
+.container-fluid.emails .widget .panel-heading .btn-group .btn-default:hover {
+    color: #666666;
+    border-color: #666666;
+}
+.container-fluid.emails .widget.planner .panel-heading>.loading-image {
+    margin: 10px 3px auto;
+}
+.container-fluid.emails .widget.planner .add-repeat.active {
+    border: 1px solid #f05a75 !important;
+}
+.container-fluid.emails .widget.planner .list-group-item {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD !important;
+    margin: 15px 0 0;
+    height: 47px;
+    padding: 10px 5px;
+}
+.container-fluid.emails .widget.planner .list-group {
+    margin-bottom: 0;
+}
+.container-fluid.emails .widget.planner .list-group-item>div {
+    padding: 0 5px !important;
+}
+.container-fluid.emails .widget.planner .list-group-item>div>a{
+    display: block;
+    background-color: #F05A75;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 0.25rem 0.3rem;
+}
+.container-fluid.emails .widget.planner .list-group-item>div>a:hover {
+    background-color:#ea8e9f;
+    text-decoration: none;
+}
+.container-fluid.emails .widget.planner .list-group-item input, .container-fluid.emails .widget.planner .list-group-item select {
+    border: 1px solid #ccc;
+    color: #999;
+    border-radius: 3px;
+    padding: 0.15rem 0.3rem;
+    width: 100%;
+}
+.container-fluid.emails .widget .post-plans {
+    padding: 0 15px 15px;
+}
+.emails .post-plans p {
+    margin-top: 15px !important;
+}
+
+/*********************
+CALENDAR WIDGET STYLES
+*********************/
+.container-fluid.emails .buttons>a {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #009688;
+    text-decoration: none;
+}
+.container-fluid.emails .buttons>a:active, .container-fluid.emails .buttons>a:hover {
+    text-decoration: none;
+}
+.calendar-widget {
+    min-height: 280px;
+    width: 100%;
+    background-color: #ffffff;
+    display: none;
+    padding: 15px 15px 5px;
+}
+.calendar-widget .panel-content {
+    width: 100%;
+}
+
+.calendar-widget table {
+    width: 100%;
+}
+
+.calendar-widget table th {
+    height: 35px;
+}
+
+.calendar-widget table th a {
+    color: #7ac3ff;
+}
+
+.calendar-widget table td {
+    text-align: center;
+    height: 40px;
+    font-weight: 600;
+}
+
+.calendar-widget table td a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 14px;
+    color: #282f34;
+}
+
+.calendar-widget table td .past-days {
+    pointer-events: none;
+    color: #8696a2;
+}            
+
+.calendar-widget table td .current-day {
+    background-color: #f5f5f5;
+    color: #282f34;
+    text-decoration: none;
+}
+
+.calendar-widget table td a:hover, table td a:active, table td a.add-date {
+    background-color: #dddddd !important;
+    color: #282f34;
+    text-decoration: none;
+}
+
+.calendar-widget table.iso td:nth-child(6) a, .calendar-widget table.iso td:nth-child(7) a, .calendar-widget table.iso td:nth-child(6), .calendar-widget table.iso td:nth-child(7) {
+    color: #c24a45;
+}
+
+.calendar-widget table.usa td:first-child a, .calendar-widget table.usa td:nth-child(7) a, .calendar-widget table.usa td:first-child, .calendar-widget table.usa td:nth-child(7) {
+    color: #c24a45;
+}
+.calendar-widget ul {
+    overflow-x: auto;
+    height: 217px;
+}
+.calendar-widget .form-control {
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.calendar-widget .list-group-item {
+    padding: 0 10px;
+    padding: 0 10px;
+    line-height: 37px;
+    border: 1px solid #ddd !important;
+    border-top: 0 !important;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0;
+    margin-bottom: 0 !important;
+}
+.calendar-widget .list-group-item.selected-time {
+    background-color: #f9f9f9;
+}
+
+/*********************
+MODAL STYLES
+*********************/
+.input-group>.input-group-btn>.btn, .input-group>.input-group-btn>.btn:focus {
+    background-color: #FFF !important;
+    border-color: #ccc;
+    color: #888;
+}
+.emails-buttons-action .btn-default {
+    background-color: #ddd;
+    border: #ddd;
+    color: #888;
+}
+.emails-buttons-action .btn-default:hover {
+    background-color: #f3f3f3;
+    border: #f3f3f3;
+}
+.emails-buttons-action .btn-success{
+    background-color: #DD7D5A;
+    border: #DD7D5A;
+    margin-left: 15px;
+}
+.emails-buttons-action .btn-success:hover{
+    background-color:#795548;
+    border:#795548;
+}
+.media-gallery > ul {
+    margin: 10px 0;
+    padding: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.media-gallery > ul > li {
+    list-style: none;
+    height: 47px;
+    padding: 10px 0;
+    border-top: 1px solid #f2f2f2;
+}
+.media-gallery > ul > li > .show-image-preview {
+    cursor: pointer;
+}
+.media-gallery > ul > li.show-preview {
+    min-height: 400px !important;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.media-gallery > ul > li.show-preview > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.media-gallery .btn-default {
+    height: 25px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 3px 12px;
+    color: #888;
+}
+.media-gallery > ul > li .fa-picture-o {
+    color: #5fd0b9;
+    margin-top: 7px;
+}
+.media-gallery > ul > li .fa-trash-o {
+    color: #f05a75;
+    font-size: 14px;
+}
+.media-gallery > ul > li > span {
+    color: #555;
+    display: block;
+    margin: 3px 0 0 5px;
+}

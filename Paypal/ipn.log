@@ -1,0 +1,524 @@
+[2019-07-26 08:41 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=23%3A41%3A21+Jul+25%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A.pHE6kQt3KL-ifbh197SAudny1AA1u5smo56A353DtXXqRT0wMcENa0&payer_email=debadrita%40desuntechnology.in&txn_id=81H56213BB551831E&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=7cfd78015c2d0
+[2019-07-26 08:41 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2019 06:41:33 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=P1Xpx3Y_CnoKS72OQtBxVTlWdHWRahTgutDinGG4weUofBmVjo820mu38pUOPUxD7WrUffdx5IJeRZqIPruqMfI7lG836pCtyJNVj5A9AlkOyRFT7UIM95RZROZpYrH_zznA8nB3pVEZqDmuF5bah9wA7RZYCGBvzvnNnOLugErvC2tpuHH6Uj3LBLxdVk9UnBeGOPFY4-zecK1Or53Xk7nu3lDBN1uX1fHVDy7z4adkrtCeI6dCXEoh1J1C8U9grECeIAFVV2pl1DvLwIbE5na93x6eGVWRlGUdrEJ7rxjat5SyNMnOH0MgjE0EbmeRDrwzqGCu3UlchKq_jf_s6KwbM2dKSDtUJNBYcCLznch1ZCQLgOtkMHccGSmKtVz3L7YgVFepp_kyiyPTbCOsOGxiisjkuGQ9VPmp823ko_lhTIO_xxqz4Llgi9C; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 23-Jul-2029 06:41:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 25-Jul-2021 06:41:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1564123293230098; path=/; expires=Sun, 18-Jul-49 06:41:33 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 292fac083112b
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2644523613%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 26 Jul 2019 07:11:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-07-26 08:45 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=23%3A45%3A06+Jul+25%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A2WSgliAJSsBS4Na6o6c2iiejLROAKX-W1wWGugRUSI4ad80V1mqA5E9&payer_email=debadrita%40desuntechnology.in&txn_id=1BC850019M596662W&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9a5765d3ed052
+[2019-07-26 08:45 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2019 06:45:17 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=u5zv1m1Y3oRDwjwZiANvZCmfGTRvof-LnoWec5Krb1J32px777f948sFlCG2xw_mY_W2cpkE8W5fcUJoa9ZUswVuV2eog9CuMT03nSy_vroMayPYiOuxvXlyfjEmJH7mdVOGOfBovVnw5A3N5UlYb871zLtk-WlceHbpvuHhSla8K-kQx7tikrguQUp0OnWOfXXlWNZf1fmqcQ_qk3j-gtM5AJQvo6sn5-QvDg6hj0B8pdtWJwOB8YklqAZLexdPPDZijOG8Fg3zrGtAXXSzF9es97CKYz66YiiS2L4Ku_m0TXY3z6J0mWozMJ2Wov4-4mu55NSFT3m1hpnNYvtFiSkIwDrwzvqZal4zNBdmVjC3GQJMRIlXYwrf-Etik1y9lnkeN0KvifjgRLnd6SCzTQp6T4DACeOnhbrquQyBBy5-zR8sJ1KWOiTSkSa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 23-Jul-2029 06:45:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 25-Jul-2021 06:45:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1564123517040420; path=/; expires=Sun, 18-Jul-49 06:45:17 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: bb1b9f9322ca
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2107718237%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 26 Jul 2019 07:15:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-07-26 08:45 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=23%3A45%3A06+Jul+25%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A2WSgliAJSsBS4Na6o6c2iiejLROAKX-W1wWGugRUSI4ad80V1mqA5E9&payer_email=debadrita%40desuntechnology.in&txn_id=1BC850019M596662W&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9a5765d3ed052 
+[2019-07-26 08:45 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=23%3A45%3A06+Jul+25%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A2WSgliAJSsBS4Na6o6c2iiejLROAKX-W1wWGugRUSI4ad80V1mqA5E9&payer_email=debadrita%40desuntechnology.in&txn_id=1BC850019M596662W&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9a5765d3ed052 
+[2019-07-26 09:05 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A05%3A43+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AVuODHkP8LuT9doPaKEZYBUHRDriALCvLx0SxsNpWCC36XPeDk2XVruj&payer_email=debadrita%40desuntechnology.in&txn_id=8VF92090F5547644V&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=5ee872402e213
+[2019-07-26 09:05 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2019 07:05:49 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=uGEfQXZYQ1uOWoqzUp5DarTyGfQSuxjqiaY9VO1JPXZf-KOGilLCXKY236CD6JTwXxghK3Ke0SI7KukUyb8WvkDeEMJkFctdG7TIw-tzXdJATFo89M-jCXMv7fdlNFQ27N_rnGMxlFZSV5c1R2cMGe2bx5uQQOJPcWOExQuoXUGwjkTtelKKRd08dU-voxsttdu-bOi-Hg3850GbiU4W_3oIR7Rk9sJXX5illbz3bgzXoQuiOiv73eDS3SWJrA5acIekc1vuPD04Rvt_pmzTC--LfqTRx6OzWWqptRWUY9UD0xz3rBssGJ9gV4A_OWC0UdIriLz9U1e6Mpa7bk_faAxFS-iLjKckusNs_G4sNXCXEXV-NQSuPNtPUqCpGiXNRqUPuNBBF7-yfoEwgL4c-G5w4dquReDiTpI2T-7gxRrZAgh1JFRxW4G5gYO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 23-Jul-2029 07:05:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 25-Jul-2021 07:05:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1564124749791312; path=/; expires=Sun, 18-Jul-49 07:05:49 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: e5ffa53dbb1d6
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1302739549%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 26 Jul 2019 07:35:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-07-26 09:05 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A05%3A43+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AVuODHkP8LuT9doPaKEZYBUHRDriALCvLx0SxsNpWCC36XPeDk2XVruj&payer_email=debadrita%40desuntechnology.in&txn_id=8VF92090F5547644V&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=5ee872402e213 
+[2019-07-26 09:05 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A05%3A43+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AVuODHkP8LuT9doPaKEZYBUHRDriALCvLx0SxsNpWCC36XPeDk2XVruj&payer_email=debadrita%40desuntechnology.in&txn_id=8VF92090F5547644V&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=5ee872402e213 
+[2019-07-26 09:22 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A22%3A50+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AIWR89aA.HFiMkIPTltcQ6RxYlvuA9032iwN7koT3KwKrSTycvil4ZEV&payer_email=debadrita%40desuntechnology.in&txn_id=7LM75354GX9810239&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2bad85758192c
+[2019-07-26 09:22 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Fri, 26 Jul 2019 07:22:57 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=1XyOFPtTcf-pOjU_mk-e1KW2v4NCjAE2tpqHMGUGH4EYPBmeCGIYCuipIwrpV7-nLkqrc8pLOrp38vPteUwS_V36LBG13qA_3tIZ7ikXpVbCgPUgKC_Wc0r08a7VlZv4TEqoEBJoNSMyPUuA1CncvqNQPOure7QczZl5YUlaAU8eng-i8LBAUePNYHKiXhQKFxiFd0LWdcq_yW2QNGLQnhuoAhTLUMifxGZUCc4GHg4EPBirTgbk0Ja6azbodbB4_MiJsOk7nJl_bhdz1KuAyNXUlPUPT7mgpA9fx7TasYaDn_jQXbqydkcZ4NnDkbNiv3nigPIVEE4bezjpfPDVntOiHeUM99-Iy_uep1JIXOpce6tNJdoV3mc90pAVvs-JB3nP3vyZKX31fvV1-g4GIStLurFz20OCGwRa7Wx5nXPqW0prNdgLNPDljnG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Mon, 23-Jul-2029 07:22:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Sun, 25-Jul-2021 07:22:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1564125777400104; path=/; expires=Sun, 18-Jul-49 07:22:57 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 552f102d5b643
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1370110557%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Fri, 26 Jul 2019 07:52:58 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-07-26 09:22 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A22%3A50+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AIWR89aA.HFiMkIPTltcQ6RxYlvuA9032iwN7koT3KwKrSTycvil4ZEV&payer_email=debadrita%40desuntechnology.in&txn_id=7LM75354GX9810239&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2bad85758192c 
+[2019-07-26 09:22 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=00%3A22%3A50+Jul+26%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AIWR89aA.HFiMkIPTltcQ6RxYlvuA9032iwN7koT3KwKrSTycvil4ZEV&payer_email=debadrita%40desuntechnology.in&txn_id=7LM75354GX9810239&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2bad85758192c 
+[2019-08-20 12:32 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=03%3A31%3A54+Aug+20%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=Avls7p6mOosY2tHzcftlj7FtyYNbATR3OfFDL77c3W1MVaUt6malm0N8&payer_email=debadrita%40desuntechnology.in&txn_id=8D2797907K872411L&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2a118b317bf48
+[2019-08-20 12:32 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 20 Aug 2019 10:32:03 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=6P_hAqsk_wGQ1-eMfcUNEBmi1UwdwK64c_TTkEYQTWAVj21PJd-x7ELDBQPz-2scweQ1NEP1L9J5N37uL_K3v-kF5GypS7smhx9aPdUeDAgc_OhIiyAT3vNX3u_N50DBqpxO7IVme_A-2sdaYO2avZCytwRwi2lEkue2b2nUseN_kksmua___c1wlSKO7q-eObDVGj_A2Jj6YXKzzaHgMP4AGmVV0c7AinbG7iHUoMPWeAFjd8wIriu83pdUk-nmEl6G2XxUMz7VIjEeU4ZwelA_axsAmTbaAZscB7a1-4vPQzlxaidfVRVfDWb4LpEK-ANlWF07DkGVSmGSKfyibZs8sKau-vkc1vcUWlZ2rxTZBdgTBpLRyc_e8mOqERTpHgcSIZNwBZs8X2INT7kq_q4NM3Nq2B4w_MtVDVbztggAu2mXhmecGNLnNJ8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 17-Aug-2029 10:32:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 19-Aug-2021 10:32:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566297124003863; path=/; expires=Thu, 12-Aug-49 10:32:04 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 2936b440eebfc
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D600595293%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 20 Aug 2019 11:02:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-20 12:32 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=03%3A31%3A54+Aug+20%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=Avls7p6mOosY2tHzcftlj7FtyYNbATR3OfFDL77c3W1MVaUt6malm0N8&payer_email=debadrita%40desuntechnology.in&txn_id=8D2797907K872411L&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2a118b317bf48 
+[2019-08-20 12:32 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=03%3A31%3A54+Aug+20%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=Avls7p6mOosY2tHzcftlj7FtyYNbATR3OfFDL77c3W1MVaUt6malm0N8&payer_email=debadrita%40desuntechnology.in&txn_id=8D2797907K872411L&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=2a118b317bf48 
+[2019-08-24 13:32 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1071
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A32%3A25+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A4VZJ1leLouapjxpT8a6mAdUhrNmAb13GODEvoWElgyWILFZRq-SVbOy&payer_email=debadrita%40desuntechnology.in&txn_id=86M777017S800242W&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=81f3cc4c9161
+[2019-08-24 13:32 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 11:32:32 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=fh2nFOIzuELsrcLF_3obOGE8aH3NdMQ-Pnl8slRnMxf7YTcljB0R73e7vPVdtDNZP4dLwJTje5LSoO4wBxQmRrJ1_E7zTJWNOx39eh2Rgafk9lOiGQIx8U4O-D0wPJkQK8FN1dJKuEPU-fkxzeAHk3SK8ovlkAwuXcw1yz_feV2RddJWtt782ZBb0ox9pApjRudXtw8aByp7tXWFW_vFN-p6lLfklUjJea-Fqp5XCPyA79jLllSkAGQgzvEgx2t8gE8F1C-S8WTsZaJSOmLUNaOsCt4BGqY-_1lyFmoLGDUI4qvxsVIELzDSiECAr9SbtkyKEXa6E3A3j_llqt7tRvZiojj69DMEKwvVFIDzwd_UP9PzUgkbyxJsTIn76qYxEfYBds3mWxvtzx1TZLxUlzRBM12dJoJFyKSIynTI376rSr8IFPeMhHM8TL4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 11:32:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 11:32:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566646353121218; path=/; expires=Mon, 16-Aug-49 11:32:33 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: fa004d6d14a1f
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1361076573%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 12:02:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 13:32 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A32%3A25+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A4VZJ1leLouapjxpT8a6mAdUhrNmAb13GODEvoWElgyWILFZRq-SVbOy&payer_email=debadrita%40desuntechnology.in&txn_id=86M777017S800242W&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=81f3cc4c9161 
+[2019-08-24 13:32 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A32%3A25+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A4VZJ1leLouapjxpT8a6mAdUhrNmAb13GODEvoWElgyWILFZRq-SVbOy&payer_email=debadrita%40desuntechnology.in&txn_id=86M777017S800242W&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=81f3cc4c9161 
+[2019-08-24 13:59 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1072
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A59%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AzJnK58atPmMMqVn7GmjLl1ijMN0AgVmE2.l6UILRZf-kyPKh2DnvAPY&payer_email=debadrita%40desuntechnology.in&txn_id=9YT43829LM713194P&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=fb9d73ba821c5
+[2019-08-24 13:59 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 11:59:40 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Zob8FqqxgUDekPyjJDQbQamdCgSVkhLrLGu2Nk_3wnKCB6t1iew9uvi6Op6WMlVXrVobtBXsvRaUXlgxNOlB3a-z1iLa4_Lf21PBTnuUzHhrDN7Qpu0T_f-t59tJmtvGCguqgemeU6dsPphxo9_nkPttL-qaEJpLoCYmASW_Hpu8wEaXrHCj3UBh9IhfUXbAED1Hm5sX-h48vhKGeupuQCxaLi-U6yVjSmz_HtLEOy3ONipDwokc8BzWIbL-zXc4gyCUqTRVcMcju1uQg1JOrZEx1FgtxsiNj1WDlGdB0YuMvjlSpA-v7cJp5rJScys8h3Vk3gv-f1r8P15GakJl71sMlw7LnkmZJdB34vSceDPo03AwPC5lB4pJqo7kxeU84L8mxdQ-rEiuk8rfzNEbK8Cl5FDcPz_na23Fdb24-hffvlGjO8SlIjk3A0u; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 11:59:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 11:59:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566647980504292; path=/; expires=Mon, 16-Aug-49 11:59:40 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 51edba1e757b4
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2888196445%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 12:29:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 13:59 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A59%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AzJnK58atPmMMqVn7GmjLl1ijMN0AgVmE2.l6UILRZf-kyPKh2DnvAPY&payer_email=debadrita%40desuntechnology.in&txn_id=9YT43829LM713194P&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=fb9d73ba821c5 
+[2019-08-24 13:59 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=04%3A59%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AzJnK58atPmMMqVn7GmjLl1ijMN0AgVmE2.l6UILRZf-kyPKh2DnvAPY&payer_email=debadrita%40desuntechnology.in&txn_id=9YT43829LM713194P&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=fb9d73ba821c5 
+[2019-08-24 14:08 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=05%3A07%3A57+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AZTZjosroamFcfvMSsbptalZ-u-ZA2EuSCF0zPhfIAauHmzyAZVvCiTm&payer_email=debadrita%40desuntechnology.in&txn_id=3AB87245KB453203B&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ed2b5d8158895
+[2019-08-24 14:08 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 12:08:06 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=-aINn9x_EqzehcUyH732xCSXbMVa-AB-L_G7ElfMUIjgi4n05V-4K-pSw5D6ZZLAyOC9bOhjZH-kRRtkKVeI7HuJ-R2LhaC9KD_Cu6AchGi3iDME4Jjzo_e-oSlhQgltvoOPMPy9GnS3OoStQHx1-TL7fFZCRnHAj3u1i08-AlXnidFUGJVhhyYhdtIJDIntcsDy1BZ_Qy9t1v1ZpR3fENuruofLtQ0TLlTdZPCAUlaBRMsHSd6Q2hMuZ1LRdLSZADqqbXLKBWcbq_cse5j-oyHQc1duzKRO320eQynIwQsRJ0fkzK3hxizguNVl4gZZYm1Y7P8hEd5wVSKTXKvw20SbWzy-ASq8vHfs0sdjYHxV-QkhgqYphUtRCHgQb892WLZ0gTtdPUXUSFj43vM6vRGta1zAjC2Xx0F7OX_SHDVPdqkeiQkIIf7bfne; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 12:08:07 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 12:08:07 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566648486670616; path=/; expires=Mon, 16-Aug-49 12:08:06 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: f1e0f90a9b2e0
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2787664221%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 12:38:07 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 14:08 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=05%3A07%3A57+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AZTZjosroamFcfvMSsbptalZ-u-ZA2EuSCF0zPhfIAauHmzyAZVvCiTm&payer_email=debadrita%40desuntechnology.in&txn_id=3AB87245KB453203B&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ed2b5d8158895 
+[2019-08-24 14:08 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=05%3A07%3A57+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=2.37&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AZTZjosroamFcfvMSsbptalZ-u-ZA2EuSCF0zPhfIAauHmzyAZVvCiTm&payer_email=debadrita%40desuntechnology.in&txn_id=3AB87245KB453203B&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ed2b5d8158895 
+[2019-08-24 14:57 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1072
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A57%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABRY04NDJ5IIVhYiRS6ypLMkwmitAcVEaRS38g42jLIt0okXPkoKBb9a&payer_email=debadrita%40desuntechnology.in&txn_id=2U140537J8595490R&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a8b1a6be81ea0
+[2019-08-24 14:57 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 12:57:40 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=gnX_JEd5GlBzbnmaalIxc1Igt6ppsn16CiCzpT1TfyB03eQvv8CioTXoliQRHHrgmpcki-wv8-k8wYWER-sdcTcvr6vYqmGjipkOpW3STLW8zevpn8ScELR0Pd9nlxPo5LPfQ-1exqrdrpb-RCgIHHVjRYgTelQpQ_AHRPMjZpfpZAzIxXspK4JD4uSlksGNbStlhugcjM0Wh1KddOXNYw2gtFdKDDTHme2uTXYl9nv5aFdckNBJkBrf0duNpiE0gpyHx-U6KlS8Vwx9Gs7dx4xnvKausVLwR3-V43UQSx4fCp3GrnR7Xf-qvHMagMau1qkqzyNKjmmEiqemGKzZipzanrColre7zqgFDBTnRfiduoQImR9OjSQdJa5UKrKQqRY4jzmpJbZLhiptYGAj9MuNW5eQJsD65chZewTJOv8wklZc_oasIv07F08; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 12:57:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 12:57:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566651460543725; path=/; expires=Mon, 16-Aug-49 12:57:40 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 4e2f67947de5b
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1144283485%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 13:27:41 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 14:57 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A57%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABRY04NDJ5IIVhYiRS6ypLMkwmitAcVEaRS38g42jLIt0okXPkoKBb9a&payer_email=debadrita%40desuntechnology.in&txn_id=2U140537J8595490R&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a8b1a6be81ea0 
+[2019-08-24 14:57 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A57%3A33+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABRY04NDJ5IIVhYiRS6ypLMkwmitAcVEaRS38g42jLIt0okXPkoKBb9a&payer_email=debadrita%40desuntechnology.in&txn_id=2U140537J8595490R&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a8b1a6be81ea0 
+[2019-08-24 15:00 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1072
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A59%3A58+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AA2Nzpc9JahNjbjKdDsaNVfA5heTAVaHB4duLLs4WyI8kLgmFL6.PrPG&payer_email=debadrita%40desuntechnology.in&txn_id=8VM13616H6711021D&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ea5749fa2d312
+[2019-08-24 15:00 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 13:00:05 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=wDrxODtIQ0NV4Eh8XUUpzztM_ouoGK2TwcLvRtxFHwwqrpzZM3RFAq1w4FXDQpiqdN33GHfECZ6Iq101iPCt04COFrHSO3gxO0tr13W2woQsSvdSEMqKlzqpjhNAidgTeeT9uLDQokXsuB3dtw_BIy_hH6jwolPYmbQPq33qmQj5hpkirI60v4t4--saWRqmVhSd934t4b6-X_UavASsaAiJfJxf5A8sVyD_XSE-rkuhWzc-jhX8kXioAtryzZ-nH_n-SCAuYDM6x9jqI0Zz-8zsh46D_1TKtZINtTadZGFd08U_96Hv1xoXLE92hKQRk-XBot5i8sRdnk7u55327Xo8m0YNPAmqwEGJwfFwzM0H4GkNa5AUYz5tCxtk43CsBeEVaAw-ol6jcBMTzu1_iMEL8w95WzfYpvCRsiuTNQj__MwsMLUHynDz8JG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 13:00:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 13:00:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566651605395117; path=/; expires=Mon, 16-Aug-49 13:00:05 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 5831a0605a3a4
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3576979805%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 13:30:06 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 15:00 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A59%3A58+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AA2Nzpc9JahNjbjKdDsaNVfA5heTAVaHB4duLLs4WyI8kLgmFL6.PrPG&payer_email=debadrita%40desuntechnology.in&txn_id=8VM13616H6711021D&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ea5749fa2d312 
+[2019-08-24 15:00 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=05%3A59%3A58+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AA2Nzpc9JahNjbjKdDsaNVfA5heTAVaHB4duLLs4WyI8kLgmFL6.PrPG&payer_email=debadrita%40desuntechnology.in&txn_id=8VM13616H6711021D&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ea5749fa2d312 
+[2019-08-24 15:45 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1144
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A44%3A56+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtesty712%40gmail.com%26custom_email%3Dtesty712%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABTYXqUsU1dEA-V54uFYMdkUv1SRA11BpSM.LL74y6KdsieGonRchR.r&payer_email=debadrita%40desuntechnology.in&txn_id=39K463502P3936159&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ae4fccc6d4849
+[2019-08-24 15:45 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 13:45:04 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=4g7liagnjnHld0KPHiuuJc8a-T1Elw3Zvc-djQ9x6qnIyQI3oGeGsc5CH2_nQlsPdIsq3McI1_wWwZFPgjU0UMJIZG2t_eb-cbQwlzrh2i-yzseCmB3BpuH24_yL_unKYAC5waY1e3DIscTtQSrPk6gppYeWax98TlTTvgq26o1rhkx64Yj9RX2eJoNyVHe29phWzEBkuZTAWhLUnOodtaqsD4ARkFnEpBG2oAHbT_98ynp3JNYkr0WiJmnsntO0_f5ceAjexSwXZyYXbEE38ZXyXAOBgmNbTE6z0eFqHyj9rgEz-gzvse49Kb_NXhpLPQDyDkNgVH9Ueu6JejgKsCEJegPTAytQljRud0jbChJyXxsOQr4JriniJMtMJcdAMUhguUMwUL8X14vjWIdSXJooe2-JE_ef8Al1zmaa6TJo0tV2lo7hGMQHeam; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 13:45:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 13:45:04 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566654304249236; path=/; expires=Mon, 16-Aug-49 13:45:04 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: f5708efc35a00
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1614766429%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:15:05 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 15:45 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A44%3A56+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtesty712%40gmail.com%26custom_email%3Dtesty712%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABTYXqUsU1dEA-V54uFYMdkUv1SRA11BpSM.LL74y6KdsieGonRchR.r&payer_email=debadrita%40desuntechnology.in&txn_id=39K463502P3936159&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ae4fccc6d4849 
+[2019-08-24 15:45 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A44%3A56+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtesty712%40gmail.com%26custom_email%3Dtesty712%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ABTYXqUsU1dEA-V54uFYMdkUv1SRA11BpSM.LL74y6KdsieGonRchR.r&payer_email=debadrita%40desuntechnology.in&txn_id=39K463502P3936159&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=ae4fccc6d4849 
+[2019-08-24 15:57 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1142
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A57%3A45+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ASVwuuouepn4jEHESPU0nGODFTr6A4PJfHQa0YqpP0kQqxX.6GY.RDXj&payer_email=debadrita%40desuntechnology.in&txn_id=2K05646919257694A&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=38bd4154ac4d5
+[2019-08-24 15:57 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 13:57:52 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=38FbESPUi6jpEYW6Us5r1ZzfYOvk7KU8_mMRvOp_cZrDnDPN6sAaNr2gd40Qn5sEdkB7EOHsoyHU3EzvWJQUtiqLyBuQiMt9yr6aFlqmbCx2Gj3XSkK67LF8OqUT-35bbgQMf0OtgI-9vHKszxXWMAIaEBb9Ki46P7VXfHdxQmpTf_VdvrkCfkJQRmOwFyJyog8BI5ms0TTFZ6_TJqHh-lwjquDe9SJxVqbHMO-D9KsTJQm-8QIZ4YX1WwZu2v49OpODg-0flGV9Zp12zwnlw6_Rna9zbAB9min9j1YI5PQryuoDGy1CrmTv8hFTlak_AqA3CmDU-QzAMlkm1yU9LIgU3nOBRBWRkrV2J73NMq4FMsapAvpWCLgey7amSpwC3IihM0vC6voPhyv-r-nH6WJuRxxgnofRU8E3xVkSCfZcJt1LXOg1P8Kel20; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 13:57:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 13:57:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566655072672156; path=/; expires=Mon, 16-Aug-49 13:57:52 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: a646202c9d776
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1614963037%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:27:53 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 15:57 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A57%3A45+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ASVwuuouepn4jEHESPU0nGODFTr6A4PJfHQa0YqpP0kQqxX.6GY.RDXj&payer_email=debadrita%40desuntechnology.in&txn_id=2K05646919257694A&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=38bd4154ac4d5 
+[2019-08-24 15:57 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=06%3A57%3A45+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=ASVwuuouepn4jEHESPU0nGODFTr6A4PJfHQa0YqpP0kQqxX.6GY.RDXj&payer_email=debadrita%40desuntechnology.in&txn_id=2K05646919257694A&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=38bd4154ac4d5 
+[2019-08-24 16:06 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1142
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A06%3A38+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A13xYWKPMsRbFBYlaWIlll7nM5vIAHyMl9ha7eldwolMPhbnPL3XLR7B&payer_email=debadrita%40desuntechnology.in&txn_id=9H136602K8046463J&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=d21041771fad6
+[2019-08-24 16:06 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 14:06:48 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=-vhT4xOJ1gc0JpspLsrY6hGjyTd6WApsnQBy0Bv9K0ns4oq_1E6mrhK3AGrH7heNQuJzIEFa2wLni8mbN8AEHXVI10fSLkQvzRs64jwD4Rx50j8GCOPxOpiYx7j15nM5qb_r8iq4Y5vEMD1AXWVqa1SY2o1zrUcYVk41ZXDx4LTnnU187Q0pD-oiTtYabHuZoRM1cleaCcCX9XZkN953xsozlymleQXTGPyBdqJwxOSSgVeOceWDaAe3KBJvvnKQTKAcKMM0W9Bfklpd8iH98nYCD9RhDlVqBy_mOn4jZWNYJ67oor4L9XYUytD94wKQYm-yj9FT2ej_M37wgjEK3pAgp2r8uzuPDJdviRUf7cQZpQJA2dJYlh97rVUcO1LHwQ7lR0Sg0PSrQdTtuuGxJEjTidRpoSYLdgA83YsBWY12yhKX_gVqqrtnid4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:06:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 14:06:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566655608758706; path=/; expires=Mon, 16-Aug-49 14:06:48 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 8337c9d0b13d1
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2017747293%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:36:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 16:06 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A06%3A38+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A13xYWKPMsRbFBYlaWIlll7nM5vIAHyMl9ha7eldwolMPhbnPL3XLR7B&payer_email=debadrita%40desuntechnology.in&txn_id=9H136602K8046463J&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=d21041771fad6 
+[2019-08-24 16:06 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A06%3A38+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A13xYWKPMsRbFBYlaWIlll7nM5vIAHyMl9ha7eldwolMPhbnPL3XLR7B&payer_email=debadrita%40desuntechnology.in&txn_id=9H136602K8046463J&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=d21041771fad6 
+[2019-08-24 16:10 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1142
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A10%3A00+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=A.AbWnAGVjnk3dpIuEhAFXDgPzwNAfMh2Hbj9tx8HexOZcAPxfCXGQj5&payer_email=debadrita%40desuntechnology.in&txn_id=30Y85438FX4611202&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=3520c77e67436
+[2019-08-24 16:10 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 14:10:07 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=3Bieo0_Zbg2IT3oJePiOnAQ7F7f6wxd6SfbkbCUgOBSHlk1mNYAsWvLfalhLiojorIZqLwmprWOWIAmvjMaYD8cWIUnc7wr2nWVVd4SOhddA3eg3f1erXA72lsN28Mm-JqWjv0HoZtTrHG8FuFFiVYUxS8AFcnMos9omgX10e9Mza45Pxo7Wz19tUAxIo0t7aXDNfC9ViVvYNw0J-J2_IzrSWEtipQZToaB8zjxvZE73X5tiMNhZOc45GQzSnwSOpTEArLMe6D-LzU1FvT55xyWYAteRIwfxWvcXY8rotE2vObJjR1GtgitiUvXxewNC4XL3MG1qY6suY27mIAIFF5OrYD-ZyzRDzI15Vue3eQvP2cMer1IDpiUKGV1yBbsS0gpDf2R-LhWCD_nloNnKZ_ICBPpH8i2gSpzIv7hDQq8kz5ooenNWiiwG-Vu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:10:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 14:10:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566655807675732; path=/; expires=Mon, 16-Aug-49 14:10:07 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 9191b9b89efa9
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1061511517%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:40:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 16:29 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1160
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A29%3A11+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com%26no_shipping%3D4&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AAWTMyvsF8Y0j9s-sgU2YFPONX3XAN3F1i6BkrAIw69m2kqWyih9II0H&payer_email=debadrita%40desuntechnology.in&txn_id=0F7149930T898640Y&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a2d8df7f3fc90
+[2019-08-24 16:29 Europe/Paris] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Aug 2019 14:29:21 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zuG_MqVPB02MyvlvnHCUVd0UJtbPyZQ8qHJ4dF_SnaT4qBkVy2ASa5iTlochrNI2_065tzjpAbkymSNK5915sbOWYEqYwEy3Gpt8FbgNyzPelQX1_VIold7l1h9x7mMD4Fm3fqfmF5JM1D_cT874O4JzB-N5_m4vypsvC2WF3lppr3Zs4N3GEGfu-AxBsvdXdNvGKvyk-benB5OZJwskQqfPSfMWC4CMhkpphy_i2kmaU38axoLY-lwF4uC2Zp-OVoNpvAECm92SfM3kP9BX3EOxUzMMbyP14cxA1mETYjFARVIs3aEkjOz60adwBZ-Zr9ZXWeSwSOLhx39QLwvQXO8slA5o20wv3uxWwH4HZ4hICTCaQt62mNSNz6WrR-xy1zkaY_V2OYyl_Xa129MnYrS2inN7J-uw0CmGxaltkgZuJYVA5LBZEQKJoQy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:29:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 23-Aug-2021 14:29:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566656961241217; path=/; expires=Mon, 16-Aug-49 14:29:21 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 7af2e2b6334a1
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3242811741%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:59:22 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-08-24 16:29 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A29%3A11+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com%26no_shipping%3D4&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AAWTMyvsF8Y0j9s-sgU2YFPONX3XAN3F1i6BkrAIw69m2kqWyih9II0H&payer_email=debadrita%40desuntechnology.in&txn_id=0F7149930T898640Y&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a2d8df7f3fc90 
+[2019-08-24 16:29 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=59.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=KFZJMYC4PEKK4&address_street=Flat+no.+507+Wing+A+Raheja+Residency%0D%0AFilm+City+Road%2C+Goregaon+East&payment_date=07%3A29%3A11+Aug+24%2C+2019+PDT&payment_status=Completed&charset=windows-1252&address_zip=400097&first_name=Debadrita&mc_fee=2.37&address_country_code=IN&address_name=Debadrita+Paul&notify_version=3.9&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com%26no_shipping%3D4&payer_status=verified&business=sanjib%40desuntechnology.in&address_country=India&address_city=Mumbai&quantity=1&verify_sign=AAWTMyvsF8Y0j9s-sgU2YFPONX3XAN3F1i6BkrAIw69m2kqWyih9II0H&payer_email=debadrita%40desuntechnology.in&txn_id=0F7149930T898640Y&payment_type=instant&last_name=Paul&address_state=Maharashtra&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&insurance_amount=0.00&receiver_id=NHGWEVWXL56WG&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=a2d8df7f3fc90 
+[2019-09-03 13:56 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 819
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A56%3A06+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=An3MjjoNmnq7BT.LvXVTc6Qm1O20AfrYrttPEN9kOLsKg.WhCPDkCChl&payer_email=debadrita%40desuntechnology.in&txn_id=24426268Y5399931U&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=634a222195b7f
+[2019-09-03 13:56 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:56:16 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=jJVDMG9V78vagJE2hb8b2W3rjEb76xs578F1Rf8MYRb2B4FYKoLErLEJwbUHyLrAw1wwqK9ZdvxKAu3O9A9fctUDQGwSJQT_xyRyzq3Jq20GwVM0_6l0XBzCa9-qdJ-inUkFSO4ea1xRamnBqAHYQTu05ndYTNgXwxJ5nEKIlp65xYM9KET0re8HrXGb7UFjIsfNamIzZ00DXsVOonkpkePJwnZzlfuaCQDtNa9xhxrk3M2dnf1KS722GUJcvvdHtr6rM4WmnZjQe7gTIJMh5CN9hu5e2zJWCW7u4pC2B7MQW6EB1bk3DWbKDs2DRUj_H-cXBgHVcbKkL_z2RJzz4TU1FMCJbkgQyTFxLF2iX7RmyNKwvalvLOaSP5onIzxLAnOtCJZS_lr-Okpq-wl4lPJPE7D57BvqAtjzKkVB8YBcsP_QhbWYC-0xcQC; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:56:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:56:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511776222231; path=/; expires=Thu, 26-Aug-49 11:56:16 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: cd947ef92fbf2
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D3763629661%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:26:16 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:56 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A56%3A06+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=An3MjjoNmnq7BT.LvXVTc6Qm1O20AfrYrttPEN9kOLsKg.WhCPDkCChl&payer_email=debadrita%40desuntechnology.in&txn_id=24426268Y5399931U&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=634a222195b7f 
+[2019-09-03 13:56 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A56%3A06+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=An3MjjoNmnq7BT.LvXVTc6Qm1O20AfrYrttPEN9kOLsKg.WhCPDkCChl&payer_email=debadrita%40desuntechnology.in&txn_id=24426268Y5399931U&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=634a222195b7f 
+[2019-09-03 15:17 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 907
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=06%3A17%3A37+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=custom_name%3Dedouardrichemond%40gmail.com%26custom_email%3Dedouardrichemond%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A0IX0tCe00Y8nungnNEWhpYdOfIvAAo5489qiGp84ueILYQyo26C-93.&payer_email=debadrita%40desuntechnology.in&txn_id=4YV455101S3610716&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9fb83a4a7cb32
+[2019-09-03 15:17 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 13:17:45 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=TdBJiI02IgjavZbIVcmjSc0__H8r8Tcl8NJCQgvbDX2InrY-4w-EJafWJz2GgGVMlHAKod_G0Ga5vtsfTEzvEBAtOR5H2dgvem7Pv2-Ire85OgEu0Q_r_UGeqTMxGzgfoE0yCc17dHCUBNKIhQZBNsy1wktSnp0WZu1ST4G0EDQsZTdPWLThVqYYeAGqqZlI1_xES3NPcSQI4wi5MwibkKuovCECRpTDBJ3ExJblEIURHauVdFzuHppfELYqd7RXagb4bE7NXGxOZmokN_-ykXz4XUWpOfSTwTemtuj4MiUx2GQ1nzQEcO2GuUxVF13Z5bAupeD_VMYG0lfXjhCu-1UwNvAtAfbHRSwGpVTOUG8i50lGsC5GPoea6waNLIDBE4KHQwDoopnyzENvYdOz7uYyKQdACoyPv6Ey54MlINfZSNpmyOzZ-baP9gq; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 13:17:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 13:17:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567516665081523; path=/; expires=Thu, 26-Aug-49 13:17:45 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: a09af62c9911
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D4184305245%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 13:47:46 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 15:17 Europe/Paris] Vdddddddddddderified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=06%3A17%3A37+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=custom_name%3Dedouardrichemond%40gmail.com%26custom_email%3Dedouardrichemond%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A0IX0tCe00Y8nungnNEWhpYdOfIvAAo5489qiGp84ueILYQyo26C-93.&payer_email=debadrita%40desuntechnology.in&txn_id=4YV455101S3610716&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9fb83a4a7cb32 
+[2019-09-03 15:17 Europe/Paris] Verified IPN: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=06%3A17%3A37+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=custom_name%3Dedouardrichemond%40gmail.com%26custom_email%3Dedouardrichemond%40gmail.com&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=A0IX0tCe00Y8nungnNEWhpYdOfIvAAo5489qiGp84ueILYQyo26C-93.&payer_email=debadrita%40desuntechnology.in&txn_id=4YV455101S3610716&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Regular&discount=0.00&mc_currency=INR&item_number=REG%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=9fb83a4a7cb32 

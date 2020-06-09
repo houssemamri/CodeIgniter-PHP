@@ -1,0 +1,83 @@
+[2019-08-24 16:20 Europe/Paris] Can't connect to PayPal to validate IPN message: <url> malformed
+[2019-08-24 16:20 Europe/Paris] HTTP request of validation request: for IPN payload: cmd=_notify-validate&business=sanjib%40desuntechnology.in&item_name=Regular&item_number=REG%23N1&amount=59&no_shipping=4&currency_code=INR&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&notify_url=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fnotify.php&cancel_return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fcancel.php&return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Freturn.php&cmd=_xclick&pay_now=Pay+Now
+[2019-08-24 16:20 Europe/Paris] HTTP response of validation request: 
+[2019-08-24 16:20 Europe/Paris] HTTP request of validation request: for IPN payload: cmd=_notify-validate&business=sanjib%40desuntechnology.in&item_name=Regular&item_number=REG%23N1&amount=59&no_shipping=4&currency_code=INR&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&notify_url=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fnotify.php&cancel_return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fcancel.php&return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Freturn.php&cmd=_xclick&pay_now=Pay+Now
+[2019-08-24 16:20 Europe/Paris] HTTP response of validation request: 
+[2019-08-24 16:23 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&business=sanjib%40desuntechnology.in&item_name=Regular&item_number=REG%23N1&amount=59&no_shipping=4&currency_code=INR&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&notify_url=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fnotify.php&cancel_return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fcancel.php&return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Freturn.php&cmd=_xclick&pay_now=Pay+Now
+[2019-08-24 16:23 Europe/Paris] HTTP response of validation request: HTTP/1.1 400 Bad Request
+Date: Sat, 24 Aug 2019 14:23:12 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=r7Y2HJ4T3y8satsP4aY8MrC-7p1N757LdINEQmb48Xyy-VCqB-BptUzgORPuwldKHyW1zkDlXYdr5NEOngPmR94umYfm_8cntro3me7KlzDrtrSHt-QFv6pCd0LfYhVGxP4QiApKmXwOOXcIMmnvyU--AtqAchGJl1sGw9GiKKDG7HdXBnprgBO4Px5F8z47m7ebHHr-iozgDFkc-6SCnY4S5gk5pVmXiv2JqIq2ihWOoSt36bHFLmqB1aO; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:23:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566656592705392; path=/; expires=Mon, 16-Aug-49 14:23:12 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 8df86a31a4750
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1346920797%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:53:13 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+Strict-Transport-Security: max-age=63072000
+
+
+[2019-08-24 16:23 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&business=sanjib%40desuntechnology.in&item_name=Regular&item_number=REG%23N1&amount=59&no_shipping=4&currency_code=INR&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&notify_url=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fnotify.php&cancel_return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fcancel.php&return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Freturn.php&cmd=_xclick&pay_now=Pay+Now
+[2019-08-24 16:23 Europe/Paris] HTTP response of validation request: HTTP/1.1 400 Bad Request
+Date: Sat, 24 Aug 2019 14:23:36 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=t0B7LePmdhBepJShVgWOpNWzeK9edIldL5DAZH_YNFLbii-lQxCl2BzsGQ67nh50G1QVTCH99C1fhuAqPWG2uoNYN5xVfioswAaHTjCp1-aw2iODRmmfP4jk_AULPLHfL9yBjMv9BIOHjKhEhtI5DlnE3cwOzDt1kQy8WhlPZZ0QHQzJjNM1mLyrVQ7e5PtrKUPmG_205n--7Kk008gvumvp_baNod5NlJA7kbSZt6jz3YiWWRolmWXpoJm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:23:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566656616530112; path=/; expires=Mon, 16-Aug-49 14:23:36 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 6b73730a7a3cc
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1749573981%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:53:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+Strict-Transport-Security: max-age=63072000
+
+
+[2019-08-24 16:23 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 441
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&business=sanjib%40desuntechnology.in&item_name=Regular&item_number=REG%23N1&amount=59&no_shipping=4&currency_code=INR&custom=custom_name%3Dtest250%40gmail.com%26custom_email%3Dtest250%40gmail.com&notify_url=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fnotify.php&cancel_return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Fcancel.php&return=https%3A%2F%2Freview-thunder.com%2FPaypal%2Freturn.php&cmd=_xclick&pay_now=Pay+Now
+[2019-08-24 16:23 Europe/Paris] HTTP response of validation request: HTTP/1.1 400 Bad Request
+Date: Sat, 24 Aug 2019 14:23:43 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Ao7AJpqSM10Tl-xaNk-6rsqmG2E1YJZXrU01rNJUHBMQN2OtFYYR1QN0FMPiGsJSdQa5I4joX9RPukZ1OccZ3fiV98mPW7Dk9rthn56mLWW0d-7JWMB2SSjo1ZMjtaFH90i9OfmXHk4MLfprCrIkCJW4eECoMwyaOJTRaRmdFIIJi0H7XU5uNO_PVjGDsAex_AvtoWI9bPiA77SJqzS1WXnqm8ti5vlHeJSFg6BX3l1VhNpdF3jBEp_-QzG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Tue, 21-Aug-2029 14:23:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1566656623882566; path=/; expires=Mon, 16-Aug-49 14:23:43 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: db01d3c6d1a06
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1867014493%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Sat, 24 Aug 2019 14:53:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+Strict-Transport-Security: max-age=63072000
+
+

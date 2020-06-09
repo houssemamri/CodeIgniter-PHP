@@ -1,0 +1,138 @@
+/*********************
+MEMBER LISTS STYLES
+*********************/
+.container-fluid.teams {
+    padding: 0px !important;
+}
+.container-fluid.teams > .col-lg-4 {
+    -webkit-animation: getmes 1.3s;
+    animation: getmes 1.3s;
+}
+.container-fluid.teams > .col-lg-8 {
+    display: none;
+}
+.container-fluid.teams .panel-heading {
+    margin-top: -1px !important;
+    padding: 10px 15px 0 !important;
+    border-radius: 5px 5px 0 0;
+}
+.container-fluid.teams ul, .container-fluid.teams .nav-tabs>li.active>a {
+    border-color: #F5F5F5;
+}
+.container-fluid.teams .nav-tabs>li.active>a {
+    border-bottom-color: transparent;
+    color: #555 !important;
+}
+.container-fluid.teams ul, .container-fluid.teams .nav-tabs>li.active>a {
+    border-color: #F5F5F5;
+}
+.container-fluid.teams .nav-tabs>li>a {
+    color: #becbd2 !important;
+}
+.container-fluid.teams .panel-body ul {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid.teams ul, .container-fluid.teams .nav-tabs>li.active>a {
+    border-color: #F5F5F5;
+}
+.container-fluid.teams .panel-body #members>ul > li {
+    color: rgb(96, 125, 139);
+    height: 50px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 1px 5px;
+    margin-bottom: 15px;
+    list-style: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    border-image: initial;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+.container-fluid.teams .nav-tabs>li.active>a {
+    border-bottom-color:transparent;
+    color: #555 !important;
+}
+.container-fluid.teams .nav-tabs>li>a:hover {
+    background:none !important;
+    border-bottom-color:transparent;
+}
+.container-fluid.teams .panel-body #members ul > li > h4 > .btn-group {
+    margin-top: -7px;
+}
+.container-fluid.teams .panel-body #members ul > li > h4 > span {
+    font-size: 12px;
+    color: #bbc1c7;
+}
+.container-fluid.teams .btn-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #dadee7;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #0e1a35;
+    height:32px;
+}
+.container-fluid.teams .btn-default:hover {
+    background: #f8f8f8;
+    box-shadow:none;
+}
+.container-fluid.teams .fa-users {
+    color: #60d0b9;
+}
+.container-fluid.teams .fa-user-plus {
+    color: #7ac3ff;
+}
+.container-fluid.teams .btn-primary {
+    background-color: #54ABDB;
+    border-color: #54ABDB;
+}
+.container-fluid.teams .btn-primary:hover, .container-fluid.teams .btn-primary:active {
+    background-color:#57B3E0;
+    border-color:#57B3E0;
+}
+
+/*********************
+MEMBER INFORMATION STYLES
+*********************/
+.container-fluid.teams>.col-lg-8>div {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+    height: auto;
+    padding-top: 15px;
+    min-height: 300px;
+}
+.container-fluid.teams>div>div>div>div>div>ul>li {
+    padding-right: 0;
+}
+.container-fluid.teams .list-group-item {
+    border: none;
+    padding: 10px 5px;
+}
+.container-fluid.teams .list-group-item input {
+    border-radius: 0!important;
+    color: #858585;
+    background-color: #FFF;
+    border: 1px solid #eee;
+    padding: 5px 4px 6px;
+    font-size: 14px;
+    font-family: inherit;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+}
+.container-fluid.teams .list-group-item .btn-success {
+    background-color: #DD7D5A;
+    border: #DD7D5A;
+    margin-left: 15px;
+}
+.container-fluid.teams .list-group-item .btn-success:hover {
+    background-color:#795548;
+    border:#795548;
+}

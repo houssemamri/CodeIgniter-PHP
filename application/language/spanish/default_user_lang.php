@@ -1,0 +1,406 @@
+<?php
+$lang['mu1'] = 'Tablero';
+$lang['mu2'] = 'Mensajes';
+$lang['mu3'] = 'Historia';
+$lang['mu4'] = 'RSS Feeds';
+$lang['mu5'] = 'Herramientas';
+$lang['mu6'] = 'Redes';
+$lang['mu7'] = 'Parametres';
+$lang['mu8'] = 'Preguntas maas frecuentes';
+$lang['mu9'] = 'Nueva publicacion';
+$lang['mu10'] = 'Notificaciones';
+$lang['mu11'] = 'Ver todo';
+$lang['mu12'] = 'Semanal';
+$lang['mu13'] = 'Mensual';
+$lang['mu14'] = 'Trimestre';
+$lang['mu15'] = 'Ultimos mensajes publicados';
+$lang['mu16'] = 'Planes de suscripcion';
+$lang['mu17'] = 'Estadisticas sociales';
+$lang['mu18'] = 'publicaciones publicadas';
+$lang['mu19'] = 'publicado';
+$lang['mu20'] = 'programado';
+$lang['mu21'] = 'no publicado';
+$lang['mu22'] = 'borrador';
+$lang['mu23'] = 'No se han encontrado publicaciones.';
+$lang['mu24'] = 'escribe algo aqui...';
+$lang['mu25'] = 'Titulo de la publicacion';
+$lang['mu26'] = 'Eliminar el enlace';
+$lang['mu27'] = 'Inserta el enlace en la publicacion..';
+$lang['mu28'] = 'Introduce la url que quieras compartir.';
+$lang['mu29'] = 'Comprobando si la url ingresada es valida ...';
+$lang['mu30'] = 'Borrar la imagen';
+$lang['mu31'] = 'Insertar la imagen en el post.';
+$lang['mu32'] = 'Recortar la imagen';
+$lang['mu33'] = 'Introduce la foto url';
+$lang['mu34'] = 'o subir una foto';
+$lang['mu35'] = 'Borra el video';
+$lang['mu36'] = 'Inserta el video en el post.';
+$lang['mu37'] = 'Subir un video';
+$lang['mu38'] = 'Buscar cuentas';
+$lang['mu39'] = 'La sesion expira:';
+$lang['mu40'] = 'Nunca';
+$lang['mu41'] = 'Aun no has conectado con ninguna red social.';
+$lang['mu42'] = 'Seleccionar';
+$lang['mu43'] = 'Publicar publicacion';
+$lang['mu44'] = 'Guardar borrador';
+$lang['mu45'] = 'Seleccione una categoria';
+$lang['mu46'] = 'anadir categoria';
+$lang['mu47'] = 'Recortar la foto';
+$lang['mu48'] = 'Recortar y guardar';
+$lang['mu49'] = 'Buscar publicaciones';
+$lang['mu50'] = 'Detalles';
+$lang['mu51'] = 'Seguimiento de clics';
+$lang['mu52'] = 'URL publicada';
+$lang['mu53'] = 'Imagen publicada';
+$lang['mu54'] = 'Video publicado';
+$lang['mu55'] = 'Historia publicada';
+$lang['mu56'] = 'Contenido';
+$lang['mu57'] = 'Publicado';
+$lang['mu58'] = 'La publicacion fue programada con exito.';
+$lang['mu59'] = "Se produjo un error al procesar su solicitud. Por favor, intentelo de nuevo mas tarde.";
+$lang['mu60'] = 'No se encontro contenido.';
+$lang['mu61'] = 'Aun no has conectado con ninguna red social.';
+$lang['mu62'] = 'Habilitado';
+$lang['mu63'] = 'Publicar Descripcion';
+$lang['mu64'] = 'Publicar manualmente (predeterminado automaticamente)';
+$lang['mu65'] = 'Publicar solo nuevas publicaciones (esta accion no se puede deshacer)';
+$lang['mu66'] = 'codigo de referencia';
+$lang['mu67'] = 'Eliminar fuente RSS';
+$lang['mu68'] = 'Estas seguro?';
+$lang['mu69'] = 'Si';
+$lang['mu70'] = 'No';
+$lang['mu71'] = 'Nuevo feed RSS';
+$lang['mu72'] = 'Introduzca la URL de la fuente RSS aqui';
+$lang['mu73'] = 'General';
+$lang['mu74'] = 'Avanzado';
+$lang['mu75'] = 'Recibe las notificaciones del administrador en el correo electronico.';
+$lang['mu76'] = 'Recibir notificaciones de errores de publicacion en email.';
+$lang['mu77'] = 'Deshabilitar vista previa de la publicacion';
+$lang['mu78'] = 'Nombre de usuario';
+$lang['mu79'] = 'Email';
+$lang['mu80'] = 'Contrasena';
+$lang['mu81'] = 'Repeter le mot de passe';
+$lang['mu82'] = 'Ingrese su direccion de correo electronico';
+$lang['mu83'] = 'Introduzca una nueva contrasena';
+$lang['mu84'] = 'repite la contrasena';
+$lang['mu85'] = 'Borrar cuenta';
+$lang['mu86'] = 'Guardar cambios';
+$lang['mu87'] = 'Escoja su metodo de pago';
+$lang['mu88'] = 'Buscar cuentas';
+$lang['mu89'] = 'Nueva cuenta';
+$lang['mu90'] = 'Nuevo';
+$lang['mu91'] = 'Redes sociales';
+$lang['mu92'] = 'Plan actual';
+$lang['mu93'] = 'Renovar el plan actual';
+$lang['mu94'] = 'Mejorar';
+$lang['mu95'] = 'Tu nombre completo';
+$lang['mu96'] = 'Numero de tarjeta de credito';
+$lang['mu97'] = 'Vencimiento';
+$lang['mu98'] = 'CVV';
+$lang['mu99'] = 'Pagar con la raya';
+$lang['mu100'] = 'Mes';
+$lang['mu101'] = 'Ano';
+$lang['mu102'] = 'Todas';
+$lang['mu103'] = 'Favoritos';
+$lang['mu104'] = 'No se encontraron herramientas.';
+$lang['mu105'] = 'Por favor active su cuenta';
+$lang['mu106'] = 'Por favor active su cuenta';
+$lang['mu107'] = "<h1>Por favor active su cuenta</h1><p>Antes de que pueda iniciar sesion, debe activar su cuenta con el codigo enviado a su direccion de correo electronico.</p><p>Si no recibio este correo electronico, revise su carpeta de correo no deseado / spam.<br>Haga clic en el boton de abajo para volver a enviar el correo electronico de activacion.</p>";
+$lang['mu108'] = 'Reenviar E-Mail de activacion';
+$lang['mu109'] = 'Últimos mensajes publicados';
+$lang['mu110'] = 'Cuentas de administracion';
+$lang['mu111'] = 'cuentas';
+$lang['mu112'] = 'Esta red no esta disponible.';
+$lang['mu113'] = 'El feed RSS ya esta guardado. Por favor, vea su lista de RSS.';
+$lang['mu114'] = 'La fuente RSS se guardo con exito.';
+$lang['mu115'] = 'El feed RSS no se guardo correctamente.';
+$lang['mu116'] = 'Introduzca la URL de la pagina de Amazon';
+$lang['mu117'] = 'Introduzca la URL de la pagina de Ebay';
+$lang['mu118'] = '<p class="info"><i class="fa fa-info-circle" aria-hidden="true"></i> <a href="https://youtu.be/87UOChFPex4" target="_blank">Como generar un feed RSS de eBay</a></p>';
+$lang['mu119'] = '<p class="info"><i class="fa fa-info-circle" aria-hidden="true"></i> <a href="https://youtu.be/TP374KeDU8E" target="_blank">Como generar un feed RSS desde Amazon</a></p>';
+$lang['mu120'] = 'Correos electronicos';
+$lang['mu121'] = 'Ultimas campanas';
+$lang['mu122'] = 'empezo desde';
+$lang['mu123'] = 'Todos los planes';
+$lang['mu124'] = 'Renueva ahora';
+$lang['mu125'] = 'Publicaciones Estadisticas';
+$lang['mu126'] = 'Publicaciones publicadas';
+$lang['mu127'] = 'puestos / mes';
+$lang['mu128'] = 'puestos dejados';
+$lang['mu129'] = 'RSS Feeds';
+$lang['mu130'] = 'Estadisticas RSS';
+$lang['mu131'] = 'rss / mes';
+$lang['mu132'] = 'rss izquierda';
+$lang['mu133'] = 'correos electronicos enviados';
+$lang['mu134'] = 'Emails Estadisticas';
+$lang['mu135'] = 'correos electronicos / mes';
+$lang['mu136'] = 'correos electronicos dejados';
+$lang['mu137'] = 'izquierda';
+$lang['mu138'] = 'por red';
+$lang['mu139'] = 'Cuentas sociales';
+$lang['mu140'] = 'cuentas';
+$lang['mu141'] = 'mis cuentas';
+$lang['mu142'] = 'Publicar cuentas';
+$lang['mu143'] = 'a publicar';
+$lang['mu144'] = 'para programar';
+$lang['mu145'] = 'Campanas';
+$lang['mu146'] = 'Liza';
+$lang['mu147'] = 'Nueva campana';
+$lang['mu148'] = 'Lista nueva';
+$lang['mu149'] = 'Nueva campana';
+$lang['mu150'] = 'Nombre de la campana';
+$lang['mu151'] = 'Descripcion de la campana (opcionalmente)';
+$lang['mu152'] = 'Crear campana';
+$lang['mu153'] = 'Lista nueva';
+$lang['mu154'] = 'Nombre de la lista';
+$lang['mu155'] = 'Descripcion de la lista (opcionalmente)';
+$lang['mu156'] = 'Crear lista';
+$lang['mu157'] = 'Eliminar esta plantilla';
+$lang['mu158'] = 'editar';
+$lang['mu159'] = 'Editar esta plantilla';
+$lang['mu160'] = 'Seleccionar lista';
+$lang['mu161'] = 'Correos electronicos enviados hasta ahora';
+$lang['mu162'] = 'Correos electronicos abiertos hasta ahora';
+$lang['mu163'] = 'Correos electronicos sin abrir hasta ahora';
+$lang['mu164'] = 'Correos electronicos cancelados hasta ahora';
+$lang['mu165'] = 'Plantillas';
+$lang['mu166'] = 'Estadistica';
+$lang['mu167'] = 'Ajustes';
+$lang['mu168'] = 'Eliminar campana';
+$lang['mu169'] = 'Programar';
+$lang['mu170'] = 'Nueva plantilla';
+$lang['mu172'] = 'Todos los pueblos de la lista';
+$lang['mu173'] = 'Personas que recibieron';
+$lang['mu174'] = 'Lectores de';
+$lang['mu176'] = 'Correos electronicos inactivos';
+$lang['mu177'] = 'Subir correos electronicos';
+$lang['mu178'] = 'Eliminar lista';
+$lang['mu179'] = 'Ingrese el titulo de la notificacion ...';
+$lang['mu180'] = 'Actualizar';
+$lang['mu181'] = 'Salvar';
+$lang['mu182'] = 'URL de cancelacion de suscripcion';
+$lang['mu183'] = 'Pega las direcciones de correo electronico aqui (una por linea)';
+$lang['mu184'] = '(Seleccione un archivo CSV)';
+$lang['mu185'] = 'Guardar correos electronicos';
+$lang['mu186'] = 'Ir a la lista';
+$lang['mu187'] = 'No se encontraron redes sociales.';
+$lang['mu188'] = 'Exportar CSV';
+$lang['mu189'] = 'Anadir accion';
+$lang['mu190'] = 'Planificador';
+$lang['mu191'] = 'Detalles';
+$lang['mu192'] = 'No hay acciones del planificador anadido todavia.';
+$lang['mu193'] = 'lunes';
+$lang['mu194'] = 'martes';
+$lang['mu195'] = 'miercoles';
+$lang['mu196'] = 'jueves';
+$lang['mu197'] = 'viernes';
+$lang['mu198'] = 'sabado';
+$lang['mu199'] = 'domingo';
+$lang['mu200'] = 'Semanal';
+$lang['mu201'] = 'Quincenal';
+$lang['mu202'] = 'Mensual';
+$lang['mu203'] = 'Anual';
+$lang['mu204'] = 'repetir';
+$lang['mu205'] = 'repite';
+$lang['mu206'] = 'Seleccionado';
+$lang['mu207'] = 'Aun no has creado ningun grupo.';
+$lang['mu208'] = '<h2>Como obtener el ID de la aplicacion y el secreto de la aplicacion</h2>
+                <ol>
+                    <li>Firme aqui <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a></li>
+                    <li><strong>Mis aplicaciones</strong> &rarr; <strong>Anadir una nueva aplicacion</strong></li>
+                    <li>Haga clic en<strong>Ajustes</strong></li>
+                    <li>En el campo <strong>App Dominios</strong> add ' . str_replace(['http://', 'https://', 'www'], ['', '', ''], get_instance()->config->base_url()) . '</li>
+                    <li>Haga clic en<strong>Anadir plataforma</strong> &rarr; <strong>Web</strong> and add the url ' . get_instance()->config->base_url() . '</li>
+                    <li><strong>Guardar cambios</strong> &rarr; Copia la ID de la aplicacion y el Secreto de la aplicacion</li>
+                    <li>Copie el ID de la aplicacion y el Secreto de la aplicacion en el formulario de la pagina actual y podra conectar su cuenta de inicio de sesion actual, Sus paginas y grupos.</li>
+                </ol>';
+$lang['mu209'] = '<h2>Como conectar una cuenta de Instagram</h2>
+                <ol>
+                    <li>Ingrese su nombre de usuario y contrasena de Instagram</li>
+                    <li>Cuando se conecta la primera vez que una cuenta, tiene que ir <a href="https://www.instagram.com/" target="_blank">https://www.instagram.com/</a>, Inicia sesion y confirma el uso de Instagram desde una nueva ubicacion..</li>
+                    <li>Regresa y agrega tu nombre de usuario y contrasena de Instagram</li>
+                </ol>';
+$lang['mu210'] = ' comptes du groupe selectionne';
+$lang['mu211'] = 'Has alcanzado tu numero maximo de fuentes RSS para tu plan.';
+$lang['mu212'] = 'Mis entradas';
+$lang['mu213'] = 'Nueva entrada / Todas las entradas';
+$lang['mu214'] = 'Recibir notificaciones en el correo electronico sobre las respuestas de entradas';
+$lang['mu215'] = '<h2>Como obtener el identificador de cliente y los secretos del cliente</h2>
+                <ol>
+                    <li>Firme aqui <a href="https://developer.vimeo.com/" target="_blank">https://developer.vimeo.com/</a></li>
+                    <li>Haga clic en <strong>Mis aplicaciones</strong> &rarr; <strong>Crear aplicacion</strong></li>
+                    <li>Entrar <strong>Nombre de la aplicacion</strong>, <strong>Descripcion de la aplicacion</strong> y en el campo <strong>URL de la aplicacion</strong>entrar ' . get_instance()->config->base_url() . '</li>
+                    <li>Haga clic en el boton <strong>Anadir devolucion de llamada</strong> y entrar en la url ' . get_instance()->config->base_url() . 'usuario / callback / vimeo</li>
+                    <li>Haga clic en el boton <strong>Crear aplicacion</strong></li>
+                    <li>Luego haga clic en el enlace <strong>Solicitud de subida de acceso</strong>.</li>
+                    <li>Envia una solicitud y podras usar Vimeo para siempre despues de la aprobacion.</li>
+                    <li>Despues de la aprobacion, copie el Identificador de cliente y los Secretos del cliente y agregue el formulario de esta pagina.</li>
+                </ol>';
+$lang['mu216'] = 'Mesa';
+$lang['mu217'] = 'Lista';
+$lang['mu218'] = 'Boton';
+$lang['mu219'] = 'Espacio';
+$lang['mu220'] = 'Linea';
+$lang['mu221'] = 'codigo HTML';
+$lang['mu222'] = 'Modelo';
+$lang['mu223'] = 'Cuerpo';
+$lang['mu224'] = 'Pie de pagina';
+$lang['mu225'] = 'Color de fondo';
+$lang['mu226'] = 'Imagen de fondo';
+$lang['mu227'] = 'Usar imagen para el fondo';
+$lang['mu228'] = 'Ancho fijo';
+$lang['mu229'] = 'Deshabilitar encabezado';
+$lang['mu230'] = 'Altura fija';
+$lang['mu231'] = 'Desactivar pie de pagina';
+$lang['mu232'] = 'Introduce los estilos CSS aqui';
+$lang['mu233'] = 'Ingrese el titulo de la plantilla aqui';
+$lang['mu234'] = 'Enviar plantilla';
+$lang['mu235'] = 'Guardar plantilla';
+$lang['mu236'] = 'Seleccionar plantilla';
+$lang['mu237'] = 'Ultimos 30 dias';
+$lang['mu238'] = 'Todo el tiempo';
+$lang['mu239'] = 'Habilitar mi SMTP';
+$lang['mu240'] = 'Host SMTP';
+$lang['mu241'] = 'Ingresa tu host';
+$lang['mu242'] = 'Puerto SMTP';
+$lang['mu243'] = 'Ingrese su puerto';
+$lang['mu244'] = 'Nombre de usuario SMTP';
+$lang['mu245'] = 'Ingrese su nombre de usuario';
+$lang['mu246'] = 'Contrasena SMTP';
+$lang['mu247'] = 'Ingresa tu contrasena';
+$lang['mu248'] = 'SSL SMTP';
+$lang['mu249'] = 'SMTP TLS';
+$lang['mu250'] = 'Mis fotos';
+$lang['mu251'] = 'Ingresa la url de la foto o sube una foto';
+$lang['mu252'] = 'Configuraciones de listas';
+$lang['mu253'] = 'Texto de parrafo';
+$lang['mu254'] = 'Ajustes de tabla';
+$lang['mu255'] = 'Filas';
+$lang['mu256'] = 'Columnas (max 4)';
+$lang['mu257'] = '1 columna (porcentaje)';
+$lang['mu258'] = '2 columna (porcentaje)';
+$lang['mu259'] = '3 columna (porcentaje)';
+$lang['mu260'] = '4 columna (porcentaje)';
+$lang['mu261'] = 'CellPadding';
+$lang['mu262'] = 'Frontera';
+$lang['mu263'] = 'Color del borde';
+$lang['mu264'] = 'Eliminar tabla';
+$lang['mu265'] = 'Altura de la linea';
+$lang['mu266'] = 'Color de linea';
+$lang['mu267'] = 'Eliminar linea';
+$lang['mu268'] = 'Configuraciones de espacio';
+$lang['mu269'] = 'Altura';
+$lang['mu270'] = 'Eliminar espacio';
+$lang['mu271'] = 'Texto de cabecera';
+$lang['mu272'] = 'Editor de HTML';
+$lang['mu273'] = 'Anadir formulario de URL';
+$lang['mu274'] = 'Agregar enlace';
+$lang['mu275'] = 'Configuracion de botones';
+$lang['mu276'] = 'Boton de texto';
+$lang['mu277'] = 'Color de texto';
+$lang['mu278'] = 'Boton de eliminar';
+$lang['mu279'] = 'Configuraciones de linea';
+$lang['mu280'] = 'Por favor, configure su SMTP antes de enviar una plantilla.';
+$lang['mu281'] = 'Relleno';
+$lang['mu282'] = 'Su direccion de correo electronico ha sido cancelada exitosamente de nuestra lista de boletines.';
+$lang['mu283'] = 'Su direccion de correo electronico no ha sido cancelada de nuestra lista de boletines. Intentalo de nuevo.';
+$lang['mu284'] = 'Parrafo';
+$lang['mu285'] = 'Por favor, seleccione una lista.';
+$lang['mu286'] = 'Por favor, ingrese el titulo de la plantilla.';
+$lang['mu287'] = 'Aun no has creado ninguna lista de correo electronico.';
+$lang['mu288'] = 'Nueva plantilla';
+$lang['mu289'] = 'Mi SMTP';
+$lang['mu290'] = 'Encabezamiento';
+$lang['mu291'] = 'Foto';
+$lang['mu292'] = 'Con que frecuencia se publicaran los mensajes? (Ej .: 60 - significa una vez / hora)';
+$lang['mu293'] = 'Solo numero de minutos';
+$lang['mu294'] = 'Si las publicaciones tienen una imagen seran publicadas como imagenes.';
+$lang['mu295'] = 'No se encontraron estadisticas';
+$lang['mu296'] = 'Vista previa de Spintax';
+$lang['mu297'] = 'Bots';
+$lang['mu298'] = 'Notificacion de expiracion de token';
+$lang['mu299'] = 'Haga clic aqui para renovar sus fichas.';
+$lang['mu300'] = 'Protocolo SMTP';
+$lang['mu301'] = 'Ej: sendmail o smtp';
+$lang['mu302'] = 'Nombre del remitente';
+$lang['mu303'] = 'Correo electronico del remitente';
+$lang['mu304'] = 'Ej: el nombre de su empresa';
+$lang['mu305'] = 'Ej: el email de su empresa.';
+$lang['mu306'] = 'Fichas vencidas';
+$lang['mu307'] = 'Renovar';
+$lang['mu308'] = 'No se encontraron fichas de caducidad.';
+$lang['mu309'] = 'Prioridad de correo electronico';
+$lang['mu310'] = '1 = mas alto y 5 = mas bajo';
+$lang['mu311'] = 'Publicar publicaciones que contengan estas palabras.';
+$lang['mu312'] = 'No publiques publicaciones que contengan estas palabras.';
+$lang['mu313'] = 'Separar palabras por coma';
+$lang['mu314'] = 'Mi equipo';
+$lang['mu315'] = 'Guardar miembro';
+$lang['mu316'] = 'Nombre de usuario (minimo 6 caracteres)';
+$lang['mu317'] = 'Nombre de usuario (minimo 6 caracteres)';
+$lang['mu318'] = 'Creado';
+$lang['mu319'] = 'Ultimo acceso';
+$lang['mu320'] = 'Eliminar miembro';
+$lang['mu321'] = 'El miembro fue eliminado exitosamente.';
+$lang['mu322'] = 'El miembro no fue eliminado exitosamente.';
+$lang['mu323'] = 'No se encontraron miembros.';
+$lang['mu324'] = '<h2>Como obtener el ID de la aplicacion y el secreto de la aplicacion</h2>
+                <ol>
+                    <li>Firme aqui <a href="https://developers.pinterest.com/apps/" target="_blank">https://developers.pinterest.com/apps/</a></li>
+                    <li>Haga clic en el boton <strong> Crear aplicacion </strong>.</li>
+                    <li>Ingrese el Nombre y la Descripcion que desea.</li>
+                    <li>Haga clic en el boton <strong> Crear </strong>.</li>
+                    <li>En el campo <strong> URL del sitio </strong> agregar ' . get_instance()->config->base_url() . '</li>
+                    <li>Y en el campo <strong> Redirigir URIs </strong> agregue la url ' . get_instance()->config->base_url() . 'user/callback/pinterest</li>
+                    <li><strong> Guardar cambios </strong> & rarr; Copia la ID de la aplicacion y el secreto de la aplicacion</li>
+                    <li>Copie el ID de la aplicacion y el Secreto de la aplicacion en el formulario de la pagina actual y podra conectar su cuenta de inicio de sesion actual, sus tableros. </li>
+                </ol>';
+$lang['mu325'] = '<h2>Como conectar una cuenta de Google Plus</h2>
+                <ol>
+                    <li>Ingrese su correo electronico y contraseña de Google Plus</li>
+                    <li>Cuando se conecte, los datos de su cuenta se guardaran, luego de la aprobacion vera sus cuentas.</li>
+                </ol>';
+$lang['mu326'] = 'Nunca';
+$lang['mu327'] = 'enero';
+$lang['mu328'] = 'febrero';
+$lang['mu329'] = 'marzo';
+$lang['mu330'] = 'abril';
+$lang['mu331'] = 'Mayo';
+$lang['mu332'] = 'junio';
+$lang['mu333'] = 'julio';
+$lang['mu334'] = 'agosto';
+$lang['mu335'] = 'septiembre';
+$lang['mu336'] = 'octubre';
+$lang['mu337'] = 'noviembre';
+$lang['mu338'] = 'diciembre';
+$lang['mu339'] = 'S';
+$lang['mu340'] = 'M';
+$lang['mu341'] = 'T';
+$lang['mu342'] = 'W';
+$lang['mu343'] = 'T';
+$lang['mu344'] = 'F';
+$lang['mu345'] = 'S';
+$lang['mu346'] = 'Programar';
+$lang['mu347'] = 'Insights';
+$lang['mu348'] = 'No hay ideas disponibles.';
+$lang['mu349'] = 'Impresiones totales';
+$lang['mu350'] = 'Impresiones pagadas';
+$lang['mu351'] = 'Impresiones organicas';
+$lang['mu352'] = 'Impresiones de fans';
+$lang['mu353'] = 'Vistas totales';
+$lang['mu354'] = 'Vistas pagadas';
+$lang['mu355'] = 'Vistas organicas';
+$lang['mu356'] = 'No se encontraron videos.';
+$lang['mu357'] = 'Videos';
+$lang['mu358'] = 'Seleccionar filtro';
+$lang['mu359'] = 'Paginas vistas en total';
+$lang['mu360'] = 'Impresiones de pagina';
+$lang['mu361'] = 'Impresiones pagadas de pagina';
+$lang['mu362'] = 'Impresiones de paginas organicas';
+$lang['mu363'] = 'Pagina de usuarios comprometidos';
+$lang['mu364'] = 'Pagina de fans';
+$lang['mu365'] = 'Los fans de la pagina en linea';
+$lang['mu366'] = 'Acciones totales de la pagina';
+$lang['mu367'] = 'Historias de paginas';
+$lang['mu368'] = 'semana';
+$lang['mu369'] = '28 dias';

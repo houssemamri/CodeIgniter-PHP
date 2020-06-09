@@ -1,0 +1,126 @@
+body{background-color:#fff;}
+#lethe-head{margin-top:0px;margin-bottom:0px;}
+
+
+.logo-default, .logo-inverse {
+    width: auto !important;
+    height: 70px !important;
+}
+
+.rtnavbar .navbar{
+background:transparent;
+height: auto !important;
+left: 0 !important;
+padding-bottom: 0 !important;
+padding-top: 0 !important;
+margin-top: 0 !important;
+right: 0 !important;
+transition: transform 0.3s ease-out 0s, background-color 0.3s ease-out 0s, -webkit-transform 0.3s ease-out 0s !important;
+width: 100% !important;
+z-index: 1000 !important;
+border:0px;
+padding-left:60px;
+padding-right:30px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky2 {
+  background-color:transparent;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  background-color:#fff;
+}
+
+.rtnavbar .navbar-nav li a:hover{color:#fff;}
+.rtnavbar .navbar-nav .dropdown-toggle:hover{color:#fff;}
+
+.rtnavbar{text-transform:uppercase;
+letter-spacing: 1px;
+font-size: 13px;
+word-spacing: 2px;
+font-family: 'Raleway', sans-serif
+}
+
+.rtnavbar .navbar .dropdown li{
+	text-transform:none;
+	font-size:12px;
+	
+}
+
+.rtnavbar .navbar-brand > img {
+opacity: 1 !important;
+}
+
+.rtnavbar .language{height:10px;}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+.header {
+  position: relative;
+  border-bottom: none;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0 250px;
+  z-index: 0;
+  overflow: hidden;
+  background-color:#000;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+}
+
+.header h1{
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:500;
+	
+}
+
+.header > .container,
+.header > .container-fluid,
+.header > .container-wide {
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 120px 0 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 100px 0 40px;
+  }
+}
+
+.nav-user
+{
+  height:50px !important;
+  line-height: 35px;
+}
+
+#profileName
+{
+  font-size:30px;
+}
+#company
+{
+  font-size:15px;
+  color: #f01946;
+}
+
+.header
+{
+  height:600px;
+  position:relative;
+}
+
+
+

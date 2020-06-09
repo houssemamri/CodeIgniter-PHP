@@ -1,0 +1,252 @@
+[2019-09-03 13:49 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:49 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:49:48 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=08nfeE4Qq7S5uIOmG0ckQd1RZWOzRnutI-1Oc-1vyVC0scPsU6QSnha9Q3v79rCabEpjzvVVWUJ56Th2-kSAjZyyrz4RJzQFCYDUXiRESKyWjM6M9UL301wcxCpliM65ldccbEdlRcykob_MqjrP1alOKvxpqagCUAv1M7xQoEip6J5e692kGin-A2_cgs4sg1S0VTQgtijtFTwg6r1FaWATHSLGfhZi1p5Kuuff0pkQnvLWWxgJS7vYaO81p3Kii2r5mDI9pKqlPR8y8t8ph_11jNTq3ZLK2Vn_r-RsaBxMlSNKfItsp8G700NPc_HvbMQPfkJ3nSfwfVbVftaIoeCEIxiDmzV1wjs6Ht8-NeagQO1AI2U0uo_Bu5rivtEWh4BIS9BWQQnr62vLxPGyYQeeT1p2SlMSTMxivIabwXHCG5b0h743JRbxJyK; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:49:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:49:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511388105890; path=/; expires=Thu, 26-Aug-49 11:49:48 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: c08e198f12e94
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1548971613%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:19:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:50 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:50 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:50:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=RR00lD4gGERgnvC6ihvmRq5--gMypJpFa3_mV602nW7S7YcPJTIYEqjZaVS0GGlEWigLkbdGqX4phrqI9PIIRQfaMoUymjdeFEWOn4Ig0fdNE_8SvCHDytLI82cqm0VZj9png4YWOvf4b6BhdoZNHHvmQwCs6TKia3EuIEYQ8SBiCfKUAvfBBmyZspMzXp9diLOmWr9WpcydqTudRSuiKonFJJgjD_n4aTIxA3fjPjqh4Jy2oBIcF10Y_fkxT2Pi29ZkKoGB1FbwDZcdpK7ZUL5u3azKUf3ySQww_mNLvbxR4o6r088lxkecrFxhVrHfXdytWG2pZBaQfsxeJsI_jvHE6ajU8ViZT6XNoVUEI1kvZG-bsS-HW51qNfXEWW5t9ULtcialMyjrML0Pr4faEFnWI9cZIMg8_-eMKyWG_bys9vmJFUsmyzDGQ2q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:50:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:50:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511402586800; path=/; expires=Thu, 26-Aug-49 11:50:02 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 531db5387b5f
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1783852637%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:20:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:50 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:50 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:50:25 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=iYJgf1meDfG50mT2YOhjpxfp-_GYGHbwy2g9gN927kKhPpwq10aiZZhLosh3gVpfPfritSJUUEnMfK0kjZMRapE2mHUOyW8eGl_Tx_pXEOXJqMdqKygMHQD1VxD_xIZERIG5Dk_uNQBn1lMOGyFs3Ttm64_ch1oovKemII6OJFBoGlFLNEU4g40iTh5UbZ6Ul46WLmVE3wW2eax_1HgzkauQm07QHofd7DsDI4ZEAPn4fqDwXUI3gwXWVjl5l9d1a0bw_bqO4y4orq5ZAXXr94FT7vsdQE-S5ERA5-sQNFZYjrih5EV3pP_G-i50IDisAwPxTloa36Y8iP6djtZxZp1_EV9k4LemYdtVvB83tdmj4612DHWFPEFTzvxN7VLkH6X3QACGkjTES1eI8GhVQarY6p3kDRXOFdph3Z4SJb-E_Qfp2l_b5b5cz9m; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:50:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:50:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511425753783; path=/; expires=Thu, 26-Aug-49 11:50:25 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 5efceff8b11c1
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2169728605%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:20:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:51 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:51 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:51:13 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=XXVJiTLXE40MhDgRVnXP-pZfqv3V_xneio6eL5S7tYb5OL5d58kVp017-EWmrv4Mhshhp2_afgOVYOTMq_FK2_n3xWjC7fZpxqMSwm9fWXCPz2ibtxYho1thwF0THnJJ47joJksSUuFqW69QY8BhktRMfiv44dLgG88uqsZbeJlbndNQlE6s_Hpc2HZHi1ZOoGhbt_NyOFyIx2qMgECKoaNTyddsrWiUaliFSifiAn03Ijk_3c_P8bAIz4e7_bVy0OKyjt1s2sODdGwegU8PXV4ebyd2j65ZwCq5xSzuCyQ5CoLTW6CG5BLZ76ThSyNom4d1WkBeR4KcLlXdrNO7GEnwDVCOEtW4MknCnYjbwfbkxHl_nKRUSvY8WupZIFUlZxiwFeOQEm54xp5ibvLFmrFcSGZzVz4iInxTseP7w-sj6UYcMqO0lbElUUu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:51:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:51:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511473773524; path=/; expires=Thu, 26-Aug-49 11:51:13 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 7291f116b62bf
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2975034973%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:21:14 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:52 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:52 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:52:37 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=_UHPBsKm6udDfWTGc49FOWeNAll6r8S0kEaFZemaz0mSfhZ3Yc4w1hfGzj5keiMZSXF-OoCmncAs6bHAibyPtXz4qeZnjZc_3424rhK1iumfbi64cfRguBvZWjvimATUD0brFPGkjpHc6yr-54omotFqRZbQW2GZcEyW0DmtsMPmYQMZIFGM7Pp1ciy6UKG-YaZUDP67AABpLPLMIGy2FNtECbTEV6fSg0L_Jt9Hm1TTVR98lK4xqejWk1uCuRtIKYznykeE0N5-BvcEnIz0gWjyL9WXoUA7Cgmwc5bcvYfTWGsTqczAT8xdP0xBCyauSVtAy7l9iTB4fl1np7VoRAwbBI9Ax-dwjJROoZiI-Xbd-ncBWVdxTk0nRFvn5HEiAYYJZojF5O1ewauYIJxA69z1pkseh-pMomGJTLYDK8N_Y5l9uVklG6u3nyG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:52:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:52:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511557353606; path=/; expires=Thu, 26-Aug-49 11:52:37 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 88c273a4fc65
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D89419357%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:22:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 13:55 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 13:55 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 11:55:22 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Da82on02_NEvZffoU4vZ557jXlMIQzmCGC8hDLO986AqYcAnkMCXKlHL6AoDM3YRonSMmpB79WxS45U03TxQlCUd4Vap-JGdSxO5_-alvXQGETDnmAbMxlHG1HwTwZw_bVssYUSkpNpbITV4jCJMQmokfDxq8P5B1TT7c4ZqbTpAfl4z9mSqonR-e4u8IgC1jXs15KHGE2AzRepm5HJR9GIkflyeecMUBbE2RK3p_J3dla1lJ21n_5h7LxKbsmFJwEng9n_uGZoI0NHDsC5F3abEJseWWaaj7LDG-OS6vg7kTCvAt0nMmCuC_POkupLseJnH6ZzrDDGZueKenkXJ1gAlWeD0GVIrDSm2eRhdqaT1V_SOTpBioyo08M2q7XHsxY1bBcgWKauoNHnS0P6uN6n1enhTwh98Pf6MKAafFy_243xna_ZaB2J-zDS; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 11:55:22 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 11:55:22 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567511722243525; path=/; expires=Thu, 26-Aug-49 11:55:22 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: dc8d9f33394a
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2857659997%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:25:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 14:00 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 14:00 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 12:00:47 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=ckkqDZai0aWboynSpG9Mb-tXbMuRCib7U3CWm0ZbnadyFIM9e3jZAPGyHjGXbHfvMIEkW8WXLPLUxoEv86BoNK71VCCxisq1vXehwRpy1MtGzUp_sJXw1a3ksfF30ROV624U8k8a-tqn7GILfxD8Wh0fQFru0ABdcqvfZt5e6DDn1lIJS-p2mf8BFiKsmgfjuOZ5I78Pj2JOjQYz6rBYFOaQOuAEFML2vPSyL7dLtridxsO-nIL3nQu0zxBiL2JuUnggR8zi5eDjB8sxNp_7NpfaVO-rMDOdzDW5983eOERtV5KtEitaBDi3KH8Kc_2R5AE363K0BSDHCFMyD_TZowtrCn70TqDf_h_zhpJhVFCQzGF16dK7007dWu4xzacVy9UQoEvBk6U-U9ahbk6cHO33-8jw08YtwRUVwZbgEGIAEwHsZgzGAwJdC4y; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 12:00:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 12:00:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567512047956637; path=/; expires=Thu, 26-Aug-49 12:00:47 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 7b36e2aae1aed
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D4015353437%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:30:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 14:11 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 14:11 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 12:11:31 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=Pv6i3qCyEqIhMQdFd9fFMDxlH7ciztaIw_4GphpxB2b1XZnBwdiz7aygQfi_F4Wz1IlSd0ohq1DvjxD6eLtO4yVHF6e7Qyx59hspFzOPR2OMeBdo71ypmok7eKAaofhdYv6qV3emFjsQQfms-hTjqEA37nr2VEnRA0hhm89otASzC7YBLBaK1k3x23b7vK-OcWNsM_cIFWrcdSOn3ixFwSirC_UhCECgClrnVm1QVvbNRPiaVW3rQe77DER3UfR3waASLSdLW4z8UHeEDHQjopGCS7PXUc-Q4dwxVh9QxdryVV4Bo6upF33Q-lBkGnY-7Pyh1DzUfKXLRLXKjqBdkVLvkpM9SRs-IbIQJBb5J0KWbPEQBmx9Fmum0CL_D8P10pxIf_yet0odbW3Y3fb3SyhFiFHlkTjkDG8T9W; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 12:11:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 12:11:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567512691552266; path=/; expires=Thu, 26-Aug-49 12:11:31 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 4f535761806a3
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D1935175261%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 12:41:32 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
+[2019-09-03 14:32 Europe/Paris] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 817
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=10.00&protection_eligibility=Eligible&payer_id=KFZJMYC4PEKK4&payment_date=04%3A49%3A39+Sep+03%2C+2019+PDT&payment_status=Completed&charset=windows-1252&first_name=Debadrita&mc_fee=0.40&notify_version=3.9&custom=&payer_status=verified&business=sanjib%40desuntechnology.in&quantity=1&verify_sign=AxXiUoZq0szlfzroPefCwO7vLLT-AggA8Ouwv5HLMppiTkI1PvweRxDt&payer_email=debadrita%40desuntechnology.in&txn_id=9WG70440WH321834A&payment_type=instant&last_name=Paul&receiver_email=sanjib%40desuntechnology.in&payment_fee=&shipping_discount=0.00&receiver_id=NHGWEVWXL56WG&insurance_amount=0.00&txn_type=web_accept&item_name=Camera&discount=0.00&mc_currency=INR&item_number=CAM%23N1&residence_country=IN&test_ipn=1&shipping_method=Default&transaction_subject=&payment_gross=&ipn_track_id=1c4cf90a73ce
+[2019-09-03 14:32 Europe/Paris] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Tue, 03 Sep 2019 12:32:55 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=lPdcoH-BY69ofzHVu071ggI_k4eR5snPejqUze1UhSAHr3xDcHHlSpDt9Oa7TWxp4yKyBLldJpXB3ay-Za1wlPmJZTSe3UerSkmXLUBhuQ81BuqaCH0MQl5H54HPc_IjnWSW0WYwasBYfcCZEMc0jalSdGiACbxAFpQi3yD9G3IC9Q3X2fzh3IzRQsRI0KqD-ghAsKYSVedAkeGPVwebfyt0w_LHruy20ggccKMee7PGEPJpvIFt4bh1XfiU52A-pHO7rERpUi8xOMeeTAd6mO85eHbeCYbD0RcrbPI3NKHo3ceYbWE6ERo6hKUZSzWNMHNzbZ7Fdf-eewiM7XKlq6ktcQii9CT8qJby6--6gUuHDLrLBCUFjgYCryqSML5j1PvWsr6mzykmwxnQ6goS7hx-fkK5vDdBUoqMbpIRcrLP_NP6TvhBS3YzIbm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 31-Aug-2029 12:32:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 02-Sep-2021 12:32:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1567513975817627; path=/; expires=Thu, 26-Aug-49 12:32:55 GMT
+Vary: Accept-Encoding,User-Agent
+Connection: close
+HTTP_X_PP_AZ_LOCATOR: sandbox.slc
+Paypal-Debug-Id: 2b17b9d3c0d0e
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D1880%26app%3Dappdispatcher%26TIME%3D2002611805%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Tue, 03 Sep 2019 13:02:56 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=63072000
+
+VERIFIED
